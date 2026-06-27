@@ -39,9 +39,15 @@ All phases of this workflow are governed by the following principles, drawn from
 
 ## 3. Workflow Overview
 
-Every project follows nine sequential phases. Phases may overlap in preparation, but **no phase may be skipped**. Human review gates are mandatory before irreversible actions.
+Every project follows ten sequential phases. Phases may overlap in preparation, but **no phase may be skipped**. Human review gates are mandatory before irreversible actions.
+
+**Workflow entry:** Before Phase 1 begins, every agent and human participant must read `projects/oskar-corbenn/docs/MasterContext.md`. No phase proceeds without current project context.
 
 ```
+┌─────────────────┐
+│ Master Context  │  Read projects/oskar-corbenn/docs/MasterContext.md
+└────────┬────────┘
+         ▼
 ┌─────────────────┐
 │ 1. Goal         │  Define intent, constraints, success criteria
 │    Definition   │
@@ -74,13 +80,18 @@ Every project follows nine sequential phases. Phases may overlap in preparation,
 └────────┬────────┘
          ▼
 ┌─────────────────┐
-│ 8. Feedback     │  Collect signals from data, audience, and team
+│ 8. Lessons      │  Capture validated learnings; update MasterContext.md
+│    Learned      │
+└────────┬────────┘
+         ▼
+┌─────────────────┐
+│ 9. Feedback     │  Collect signals from data, audience, and team
 │    Loop          │
 └────────┬────────┘
          ▼
 ┌─────────────────┐
-│ 9. Continuous   │  Update agents, docs, and processes; re-enter cycle
-│    Improvement  │
+│ 10. Continuous  │  Update agents, docs, and processes; re-enter cycle
+│     Improvement │
 └─────────────────┘
 ```
 
@@ -286,11 +297,34 @@ Every project follows nine sequential phases. Phases may overlap in preparation,
 - Observations separated from recommendations.
 - Confidence assessment on conclusions.
 
-**Exit criteria:** Human reviews analytics and authorizes feedback synthesis.
+**Exit criteria:** Human reviews analytics and authorizes progression to Lessons Learned.
 
 ---
 
-### Phase 8 — Feedback Loop
+### Phase 8 — Lessons Learned
+
+**Objective:** Distill validated takeaways from the completed cycle and persist them as durable project context for the next workflow.
+
+**Primary agent:** CEO (synthesis); Researcher (input from analytics)  
+**Human authority:** Approves updates to `projects/oskar-corbenn/docs/MasterContext.md`.
+
+**Activities:**
+
+- Extract what worked, what failed, and what remains unverified from the analytics report.
+- Document decisions, outcomes, and open questions in plain language.
+- Propose updates to `projects/oskar-corbenn/docs/MasterContext.md`.
+- Apply approved changes before the workflow cycle closes.
+
+**Required outputs:**
+
+- Lessons learned summary linked to the completed cycle.
+- Updated `projects/oskar-corbenn/docs/MasterContext.md` (human-approved).
+
+**Exit criteria:** `projects/oskar-corbenn/docs/MasterContext.md` is updated and approved. The next workflow may not begin until this step is complete.
+
+---
+
+### Phase 9 — Feedback Loop
 
 **Objective:** Integrate quantitative analytics, qualitative audience response, and internal team input into actionable learnings.
 
@@ -299,7 +333,7 @@ Every project follows nine sequential phases. Phases may overlap in preparation,
 
 **Input sources:**
 
-- Analytics reports (Phase 7).
+- Analytics reports (Phase 7) and lessons learned (Phase 8).
 - Audience comments, engagement patterns, retention data.
 - Team retrospective notes.
 - Agent observations and flagged anomalies.
@@ -320,7 +354,7 @@ Every project follows nine sequential phases. Phases may overlap in preparation,
 
 ---
 
-### Phase 9 — Continuous Improvement
+### Phase 10 — Continuous Improvement
 
 **Objective:** Upgrade the system itself so each iteration performs better than the last.
 
@@ -348,7 +382,7 @@ Every project follows nine sequential phases. Phases may overlap in preparation,
 3. **Knowledge** — vision, brand, project briefs, research archives.
 4. **Automation** — only after steps 1–3 are stable.
 
-**Exit criteria:** Improvements are documented and approved. The project re-enters the workflow at the appropriate phase—typically Goal Definition or Research for the next cycle.
+**Exit criteria:** Improvements are documented and approved. The project re-enters the workflow by reading `projects/oskar-corbenn/docs/MasterContext.md`, then proceeding to the appropriate phase—typically Goal Definition or Research for the next cycle.
 
 ---
 
@@ -358,7 +392,7 @@ Every project follows nine sequential phases. Phases may overlap in preparation,
 
 | Agent | Phases | Proposes | Cannot |
 |-------|--------|----------|--------|
-| **CEO** | 1, 8, 9 | Goals, priorities, synthesis, system changes | Publish, spend, bypass human review |
+| **CEO** | 1, 8, 9, 10 | Goals, priorities, synthesis, system changes | Publish, spend, bypass human review |
 | **Researcher** | 2, 7 | Evidence-based findings, trends, experiments, analytics interpretation | Publish, spend, modify strategy or documents |
 | **Marketing Strategist** | 3 | Channel strategy, messaging, options, experiments | Publish, spend, execute production |
 
@@ -372,8 +406,8 @@ Future agents slot into the workflow without structural change. Each must define
 | **Publisher / Distribution** | 6 | Channel release, metadata, scheduling |
 | **Analytics** | 7 | Automated metric collection and reporting |
 | **Quality Reviewer** | 5 (assist) | Pre-review checklist; flags issues for humans |
-| **Documentation** | 9 | Knowledge base maintenance and changelogs |
-| **Developer / Engineer** | 4, 9 | Software, automation, internal tools |
+| **Documentation** | 8, 10 | Knowledge base maintenance and changelogs |
+| **Developer / Engineer** | 4, 10 | Software, automation, internal tools |
 
 New agents must not duplicate human authority at review or publishing gates.
 
@@ -392,6 +426,7 @@ Documentation is a phase deliverable, not an optional follow-up.
 | Human Review | Review decision record |
 | Publishing | Publish log |
 | Analytics | Metrics report tied to goals |
+| Lessons Learned | Lessons summary; updated `projects/oskar-corbenn/docs/MasterContext.md` |
 | Feedback Loop | Feedback summary |
 | Continuous Improvement | Changelog, updated agent or process docs |
 
@@ -438,7 +473,7 @@ If the majority of answers are no, the decision does not proceed.
 | **G3 — Strategy approval** | End of Phase 3 | Human approves plan before production |
 | **G4 — Human review** | Phase 5 | Mandatory before any publish action |
 | **G5 — Publish authorization** | Phase 6 | Only approved assets; logged release |
-| **G6 — Improvement approval** | Phase 9 | System changes documented and human-approved |
+| **G6 — Improvement approval** | Phase 10 | System changes documented and human-approved |
 
 No gate may be bypassed for speed.
 
@@ -476,7 +511,7 @@ Aligned with Corbenn Labs vision, the following are out of scope regardless of a
 
 ## 11. Document Maintenance
 
-This workflow is a living document. Updates follow Phase 9:
+This workflow is a living document. Updates follow Phase 10:
 
 1. Identify improvement from a completed project cycle.
 2. Propose revision with rationale.
