@@ -200,3 +200,22 @@ If confidence is below 70%, explicitly explain:
 - what information is missing;
 - why confidence is limited;
 - what additional research would increase confidence.
+
+---
+
+## Version
+
+Researcher v1.1
+
+### Changelog
+
+v1.1
+- Added Platform Verification.
+- Added Evidence Quality section.
+- Improved Workflow.
+- Prevent false negative platform detection.
+- Added multi-source verification.
+- Improved confidence reporting.
+
+Author:
+Corbenn Labs
