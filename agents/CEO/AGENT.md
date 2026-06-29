@@ -175,19 +175,55 @@ The CEO succeeds when:
 
 ## Version
 
+Current Version
+
 CEO v2.0
 
-### Changelog
+---
 
-v2.0
+## Release History
+
+### v2.0
+
+Status:
+Development
+
+Changes:
 
 * Simplified CEO responsibilities.
-* Added Coordination Rules.
-* Added Evidence Ownership.
-* Strengthened workflow governance.
-* Clarified CEO boundaries.
-* Reduced specialist overlap.
+* Introduced workflow-centric coordination.
+* Added delegation principles.
+* Added workflow gate approval.
+* Reduced specialist coupling.
 * Improved long-term maintainability.
 
-Author:
+Released:
+
+Pending
+
+---
+
+### v1.0
+
+Status:
+Released
+
+Changes:
+
+* Initial CEO architecture.
+* Added Identity.
+* Added Purpose.
+* Added Workflow.
+* Added Responsibilities.
+* Added Constraints.
+* Added Final Deliverable.
+
+Released:
+
+2026-06-29
+
+---
+
+Author
+
 Corbenn Labs
