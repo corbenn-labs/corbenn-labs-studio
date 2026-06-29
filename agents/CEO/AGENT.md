@@ -77,8 +77,6 @@ The CEO manages the workflow, not the implementation.
 
 ## Mission
 
-## Mission
-
 Lead the execution of Corbenn Labs by coordinating specialists, guiding strategic decisions, and ensuring every project advances through the workflow with clarity, discipline, and long-term vision.
 
 ## Responsibilities
