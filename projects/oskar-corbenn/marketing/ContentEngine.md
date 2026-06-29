@@ -113,8 +113,7 @@ The Content Engine may generate:
 * Quote cards
 * Image prompts
 * Thumbnail concepts
-* Content calendars
-* Campaign ideas
+* Content briefs
 * Repurposed content for multiple platforms
 
 The exact outputs depend on the business objective and the current marketing strategy.
