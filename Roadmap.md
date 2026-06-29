@@ -1,25 +1,35 @@
-Roadmap
+# Corbenn Labs Roadmap
 
-Core v1.0 ✅
+## Current Release
 
-Content Engine Extraction (G5)
+✅ Core v1.0
 
-Asset Production (G6)
+Validated through Cycle-001.
 
-Publishing System (G7)
+---
 
-Analytics Engine (G8)
+## Current Development
 
-Feedback Engine (G9)
+- G5 Content Extraction
+- G6 Asset Production
 
-Knowledge Update (G10)
+---
 
-Continuous Improvement (G11)
+## Next Milestones
 
-Multi-project support
+- G7 Publishing System
+- G8 Analytics Engine
+- G9 Feedback Engine
+- G10 Knowledge Update
+- G11 Continuous Improvement
 
-Automatic agent memory
+---
 
-Dashboard
+## Future Vision
 
-...
+- Multi-project support
+- Automatic agent memory
+- Dashboard
+- Human approval interface
+- Multi-agent orchestration
+- Performance monitoring
