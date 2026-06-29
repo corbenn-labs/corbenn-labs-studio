@@ -59,7 +59,7 @@ Distribution Platforms:
 
 Assets:
 
-- cover.png
+- cover.jpeg
 - master.wav
 - lyrics.md
 - story.md
