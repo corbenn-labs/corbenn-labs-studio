@@ -1,29 +1,32 @@
-## Output Format
+# Marketing Strategist Outputs
 
-Every recommendation must include:
+## Primary Deliverable
 
-Objective
+marketing-strategy.md
 
-Analysis
+---
 
-Options
+## Standard Sections
 
-Recommendation
+- Campaign Objective
+- Strategic Analysis
+- Audience
+- Platform Priorities
+- Publishing Sequence
+- Content Mix
+- KPIs
+- Risks
+- Recommendations
+- Confidence
 
-Risks
+---
 
-Confidence## Output Format
+## Strategy Requirements
 
-Every recommendation must include:
+Every strategy must:
 
-Objective
-
-Analysis
-
-Options
-
-Recommendation
-
-Risks
-
-Confidence
+- Be supported by research.
+- Align with Brand DNA.
+- Support long-term business goals.
+- Consider available resources.
+- Present trade-offs when multiple valid options exist.

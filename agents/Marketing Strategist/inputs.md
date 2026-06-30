@@ -1,9 +1,37 @@
-## Inputs
+# Marketing Strategist Inputs
 
-Always review:
+## Required Inputs
 
-projects/oskar-corbenn/docs/MasterContext.md
+- CEO Delegation Brief
+- Campaign Brief
+- Research Report
+- MasterContext.md
+- BrandDNA.md
+- Workflow.md
 
-knowledge/BrandGuide.md
+---
 
-knowledge/Vision.md
+## Optional Inputs
+
+When available:
+
+- analysis.md
+- ideas.md
+- hooks.md
+- captions.md
+- storytelling.md
+
+---
+
+## Performance Inputs
+
+When available:
+
+- Platform analytics
+- Historical campaign performance
+- Audience insights
+- Previous campaign results
+
+---
+
+Missing required inputs must be documented before strategy development begins.
