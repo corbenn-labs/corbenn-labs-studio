@@ -32,21 +32,33 @@ Every agent should follow the same folder structure.
 AgentName/
 
 AGENT.md
-
-Inputs.md
-
-Outputs.md
+README.md
+CHANGELOG.md
 
 Workflow.md
-
+Inputs.md
+Outputs.md
 DecisionFramework.md
 
-README.md
-
-CHANGELOG.md
+prompts/
+templates/
 ```
 
 Additional files may exist when required by the specialist, but the standard structure should remain consistent across the system.
+
+---
+
+# AGENT.md Design Philosophy
+
+The AGENT.md file is the entry point for every specialist.
+
+Its purpose is to describe **what the specialist is**, **why it exists**, and **what it owns**.
+
+Detailed specifications belong in their dedicated documents.
+
+The AGENT.md should reference those documents instead of duplicating their contents.
+
+This architecture establishes a **Single Source of Truth** for every part of the specialist.
 
 ---
 
@@ -57,16 +69,16 @@ Every AGENT.md must contain the following sections in this exact order.
 1. Identity
 2. Purpose
 3. Mission
-4. Workflow
+4. Workflow *(reference Workflow.md)*
 5. Project Context
-6. Decision Framework
-7. Inputs
+6. Decision Framework *(reference DecisionFramework.md)*
+7. Inputs *(reference Inputs.md)*
 8. Responsibilities
 9. Constraints
-10. Expected Deliverables
+10. Expected Deliverables *(reference Outputs.md)*
 11. Success Criteria
 12. Workflow Contract
-13. Version
+13. Version *(reference CHANGELOG.md for release history)*
 
 ---
 
@@ -104,9 +116,9 @@ Mission answers:
 
 Defines how the specialist performs its work.
 
-Workflow describes execution—not business strategy.
+Detailed workflow documentation belongs in **Workflow.md**.
 
-Whenever possible, workflows should align with Corbenn Labs workflow gates.
+The AGENT.md should only reference it.
 
 ---
 
@@ -122,33 +134,19 @@ Project documentation always takes priority over external assumptions.
 
 Defines how the specialist prioritizes decisions.
 
-Decision Frameworks should contain:
+Detailed decision rules belong in **DecisionFramework.md**.
 
-- Decision principles
-- Priority rules
-- Trade-offs
-- Escalation rules
-- Confidence guidance (when applicable)
-
-Decision Frameworks define thinking—not procedures.
+The AGENT.md should only reference it.
 
 ---
 
 ## Inputs
 
-Defines everything required before execution.
+Defines the information required before execution.
 
-Inputs should be separated into:
+Detailed input specifications belong in **Inputs.md**.
 
-### Required Inputs
-
-Mandatory information.
-
-### Optional Inputs
-
-Information that improves output quality.
-
-Agents must explicitly document missing required inputs.
+The AGENT.md should only reference it.
 
 ---
 
@@ -166,25 +164,17 @@ Every responsibility should belong exclusively to one specialist.
 
 Defines what the specialist must never do.
 
-Constraints protect workflow boundaries.
-
-They also prevent duplicated responsibilities.
+Constraints protect workflow boundaries and prevent duplicated responsibilities.
 
 ---
 
 ## Expected Deliverables
 
-Defines exactly what the specialist produces.
+Defines what the specialist produces.
 
-Deliverables should include:
+Detailed deliverable specifications belong in **Outputs.md**.
 
-### Primary Deliverable
-
-The main artifact produced by the specialist.
-
-### Supporting Deliverables
-
-Additional outputs required to support downstream workflow.
+The AGENT.md should only reference it.
 
 ---
 
@@ -228,16 +218,14 @@ They never describe implementation details.
 
 ## Version
 
-Every agent must include:
+Every AGENT.md must include:
 
 - Current Version
-- Status
-- Release History
-- Major Changes
+- Current Status
 
-Git stores the complete history.
+Release history belongs in **CHANGELOG.md**.
 
-The AGENT.md documents only the current architecture and recent releases.
+Git remains the authoritative version history.
 
 ---
 
@@ -258,6 +246,8 @@ Agents collaborate through documented deliverables.
 
 Agents never replace other specialists.
 
+Every architectural element should have a single source of truth.
+
 ---
 
 # Architecture Rules
@@ -273,12 +263,32 @@ Every agent:
 - Documents uncertainty instead of making assumptions.
 - Protects workflow boundaries.
 - Preserves the integrity of the operating system.
+- Avoids duplicating documentation maintained elsewhere.
+
+---
+
+# Documentation Rules
+
+Corbenn Labs follows the **Single Source of Truth** principle.
+
+Every type of information has one authoritative location.
+
+| Information | Authoritative Document |
+|-------------|------------------------|
+| Workflow | Workflow.md |
+| Inputs | Inputs.md |
+| Outputs | Outputs.md |
+| Decision rules | DecisionFramework.md |
+| Release history | CHANGELOG.md |
+| Specialist overview | AGENT.md |
+
+AGENT.md should reference these documents instead of duplicating them.
 
 ---
 
 # Agent Lifecycle
 
-Every new Corbenn Labs agent should follow this lifecycle.
+Every new Corbenn Labs agent follows this lifecycle.
 
 Architecture
 
@@ -324,7 +334,7 @@ The operating system should become more modular, maintainable, and scalable afte
 
 Current Version
 
-Agent Standard v2.1
+Agent Standard v2.2
 
 Status:
 Development
@@ -333,7 +343,7 @@ Development
 
 ## Release History
 
-### v2.1
+### v2.2
 
 Status:
 Development
@@ -343,12 +353,30 @@ Pending
 
 Major Changes
 
+- Introduced Single Source of Truth documentation architecture.
+- Defined AGENT.md as the entry point for every specialist.
+- Moved detailed specifications to dedicated documents.
+- Added Documentation Rules.
+- Expanded standard folder structure.
+- Reduced documentation duplication.
+
+---
+
+### v2.1
+
+Status:
+Released
+
+Released:
+2026-06-30
+
+Major Changes
+
 - Added standard folder architecture.
 - Defined the Agent Lifecycle.
 - Clarified specialist ownership.
 - Expanded Decision Framework definition.
 - Standardized Workflow Contracts.
-- Improved long-term scalability.
 
 ---
 
