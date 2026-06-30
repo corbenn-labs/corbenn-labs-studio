@@ -1,37 +1,31 @@
-# Research Report
+# Researcher Outputs
 
-## Objective
+## Primary Deliverable
 
----
-
-## Executive Summary
+research-report.md
 
 ---
 
-## Evidence
+## Standard Sections
+
+- Objective
+- Executive Summary
+- Evidence
+- Observations
+- Opportunities
+- Risks
+- Recommendation
+- Confidence
+- Sources
 
 ---
 
-## Observations
+## Evidence Requirements
 
----
+Every factual statement must be supported by evidence.
 
-## Opportunities
+Facts and observations must remain separated.
 
----
+Confidence must be scored from 0–100%.
 
-## Risks
-
----
-
-## Recommendation
-
----
-
-## Confidence
-
-0–100%
-
----
-
-## Sources
+Unknown information must be documented rather than assumed.
