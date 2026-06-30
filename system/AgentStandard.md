@@ -2,17 +2,57 @@
 
 ## Purpose
 
-This document defines the standard architecture for every specialist operating within Corbenn Labs.
+This document defines the official architecture standard for every Corbenn Labs agent.
 
-Its purpose is to ensure consistency, maintainability, scalability, and interoperability across all agents.
+Its purpose is to ensure consistency, maintainability, scalability, interoperability, and long-term evolution across the entire operating system.
 
-Every specialist must follow this structure unless an architectural exception has been explicitly documented and approved.
+Every agent must implement this standard unless an architectural exception has been explicitly documented and approved.
 
 ---
 
-# Standard Agent Structure
+# Agent Architecture
 
-Every Corbenn Labs agent must contain the following sections in this exact order:
+Every Corbenn Labs agent is an independent specialist.
+
+Each agent owns one domain of expertise.
+
+Agents collaborate through documented deliverables rather than shared responsibilities.
+
+Agents should remain modular, replaceable, and loosely coupled.
+
+No agent may assume responsibilities that belong to another specialist.
+
+---
+
+# Standard Folder Structure
+
+Every agent should follow the same folder structure.
+
+```
+AgentName/
+
+AGENT.md
+
+Inputs.md
+
+Outputs.md
+
+Workflow.md
+
+DecisionFramework.md
+
+README.md
+
+CHANGELOG.md
+```
+
+Additional files may exist when required by the specialist, but the standard structure should remain consistent across the system.
+
+---
+
+# AGENT.md Structure
+
+Every AGENT.md must contain the following sections in this exact order.
 
 1. Identity
 2. Purpose
@@ -34,11 +74,11 @@ Every Corbenn Labs agent must contain the following sections in this exact order
 
 ## Identity
 
-Defines who the agent is.
+Defines:
 
-Describes its role inside Corbenn Labs.
-
-Defines how success is measured.
+- Who the agent is.
+- Its role inside Corbenn Labs.
+- How success is measured.
 
 ---
 
@@ -46,7 +86,7 @@ Defines how success is measured.
 
 Explains why the agent exists.
 
-Focus on long-term responsibility rather than individual tasks.
+Purpose should describe long-term responsibility rather than individual tasks.
 
 ---
 
@@ -54,83 +94,97 @@ Focus on long-term responsibility rather than individual tasks.
 
 Defines the business objective the agent is responsible for achieving.
 
+Mission answers:
+
+"What business value does this specialist create?"
+
 ---
 
 ## Workflow
 
-Defines how the agent performs its work.
+Defines how the specialist performs its work.
 
-The workflow should describe execution steps—not business strategy.
+Workflow describes execution—not business strategy.
+
+Whenever possible, workflows should align with Corbenn Labs workflow gates.
 
 ---
 
 ## Project Context
 
-Lists the project documentation the agent must review before beginning work.
+Lists the documentation that must be reviewed before work begins.
 
-Project documentation always has priority over external assumptions.
+Project documentation always takes priority over external assumptions.
 
 ---
 
 ## Decision Framework
 
-Defines how the agent prioritizes decisions when multiple valid options exist.
+Defines how the specialist prioritizes decisions.
 
-Decision Frameworks should contain principles—not procedures.
+Decision Frameworks should contain:
 
-Decision-making should always remain within the agent's area of responsibility.
+- Decision principles
+- Priority rules
+- Trade-offs
+- Escalation rules
+- Confidence guidance (when applicable)
+
+Decision Frameworks define thinking—not procedures.
 
 ---
 
 ## Inputs
 
-Clearly define the information required before execution.
+Defines everything required before execution.
 
-Inputs should be grouped into:
+Inputs should be separated into:
 
 ### Required Inputs
 
-Information required before work may begin.
+Mandatory information.
 
 ### Optional Inputs
 
-Information that improves output quality but is not mandatory.
+Information that improves output quality.
 
-If required information is missing, the agent must explicitly document what is missing.
+Agents must explicitly document missing required inputs.
 
 ---
 
 ## Responsibilities
 
-Defines everything the agent owns.
+Defines everything the specialist owns.
 
 Responsibilities describe capabilities—not workflow steps.
 
-Each responsibility must belong exclusively to that specialist.
+Every responsibility should belong exclusively to one specialist.
 
 ---
 
 ## Constraints
 
-Defines what the agent must never do.
+Defines what the specialist must never do.
 
-Constraints protect workflow boundaries and prevent overlap between specialists.
+Constraints protect workflow boundaries.
+
+They also prevent duplicated responsibilities.
 
 ---
 
 ## Expected Deliverables
 
-Defines exactly what the agent produces.
+Defines exactly what the specialist produces.
 
 Deliverables should include:
 
 ### Primary Deliverable
 
-The main output owned by the specialist.
+The main artifact produced by the specialist.
 
-### Supporting Outputs
+### Supporting Deliverables
 
-Additional information required to make the deliverable useful.
+Additional outputs required to support downstream workflow.
 
 ---
 
@@ -138,21 +192,21 @@ Additional information required to make the deliverable useful.
 
 Defines how successful execution is evaluated.
 
-Success criteria should be measurable whenever possible.
+Success should focus on output quality rather than task completion.
 
-The focus is outcome quality—not task completion.
+Whenever possible, success should be measurable.
 
 ---
 
 ## Workflow Contract
 
-Defines how the agent interacts with the Corbenn Labs workflow.
+Defines how the specialist interacts with the Corbenn Labs operating system.
 
-Every Workflow Contract should specify:
+Every Workflow Contract must define:
 
 ### Workflow Owner
 
-Which workflow gate the agent owns.
+Which workflow gate the specialist owns.
 
 ### Receives
 
@@ -164,11 +218,11 @@ Primary deliverables.
 
 ### Consumers
 
-Which downstream specialists depend on those deliverables.
+Downstream specialists that depend on those deliverables.
 
-The Workflow Contract defines interfaces between specialists.
+Workflow Contracts define interfaces between specialists.
 
-It should never describe implementation details.
+They never describe implementation details.
 
 ---
 
@@ -176,17 +230,14 @@ It should never describe implementation details.
 
 Every agent must include:
 
-Current Version
+- Current Version
+- Status
+- Release History
+- Major Changes
 
-Release History
+Git stores the complete history.
 
-Status
-
-Major Changes
-
-Git stores complete history.
-
-The AGENT.md file documents only the current architecture and recent releases.
+The AGENT.md documents only the current architecture and recent releases.
 
 ---
 
@@ -197,10 +248,10 @@ Every Corbenn Labs agent should be:
 - Modular
 - Specialized
 - Replaceable
-- Maintainable
-- Evidence-driven
-- Workflow-oriented
 - Loosely coupled
+- Maintainable
+- Workflow-oriented
+- Evidence-driven
 - Clearly documented
 
 Agents collaborate through documented deliverables.
@@ -217,10 +268,45 @@ Every agent:
 - Produces clearly defined deliverables.
 - Reads authoritative project documentation.
 - Respects workflow gates.
-- Never skips human approval points.
+- Never skips required human approvals.
 - Never performs another specialist's responsibilities.
 - Documents uncertainty instead of making assumptions.
 - Protects workflow boundaries.
+- Preserves the integrity of the operating system.
+
+---
+
+# Agent Lifecycle
+
+Every new Corbenn Labs agent should follow this lifecycle.
+
+Architecture
+
+↓
+
+Implementation
+
+↓
+
+Validation
+
+↓
+
+Production Use
+
+↓
+
+Continuous Improvement
+
+↓
+
+Version Update
+
+↓
+
+Release
+
+Agents evolve through versioned iterations rather than ad-hoc modifications.
 
 ---
 
@@ -228,9 +314,9 @@ Every agent:
 
 Corbenn Labs agents function as specialized components within a unified operating system.
 
-Consistency across agents is more important than individual implementation style.
+Consistency is more valuable than individual implementation style.
 
-The operating system should remain maintainable, scalable, and modular as new specialists are introduced.
+The operating system should become more modular, maintainable, and scalable after every architectural iteration.
 
 ---
 
@@ -238,7 +324,7 @@ The operating system should remain maintainable, scalable, and modular as new sp
 
 Current Version
 
-Agent Standard v2.0
+Agent Standard v2.1
 
 Status:
 Development
@@ -247,7 +333,7 @@ Development
 
 ## Release History
 
-### v2.0
+### v2.1
 
 Status:
 Development
@@ -257,13 +343,30 @@ Pending
 
 Major Changes
 
-- Standardized all agent architecture.
+- Added standard folder architecture.
+- Defined the Agent Lifecycle.
+- Clarified specialist ownership.
+- Expanded Decision Framework definition.
+- Standardized Workflow Contracts.
+- Improved long-term scalability.
+
+---
+
+### v2.0
+
+Status:
+Released
+
+Released:
+2026-06-30
+
+Major Changes
+
+- Standardized AGENT.md architecture.
 - Added Success Criteria.
 - Added Workflow Contract.
 - Expanded Inputs specification.
 - Standardized Expected Deliverables.
-- Improved architectural consistency.
-- Reduced coupling between specialists.
 
 ---
 
@@ -277,10 +380,9 @@ Released:
 
 Major Changes
 
-- Initial Agent Standard created.
+- Initial Agent Standard.
 - Defined common architecture.
 - Introduced Design Principles.
-- Introduced Architecture Rules.
 
 ---
 
