@@ -46,6 +46,7 @@ Generate production-ready assets that minimize creative friction while preservin
 
 Before starting any work, always read:
 
+- PROJECT_STATE.md
 - MasterContext.md
 - BrandDNA.md
 - Campaign Brief
@@ -53,6 +54,7 @@ Before starting any work, always read:
 
 If available, also read:
 
+- ProductionLog.md
 - ProductionStandard.md
 - Research Report
 - Previous Content Engine outputs
@@ -89,7 +91,7 @@ ProductionStandard.md always overrides internal assumptions regarding production
 
 - Previous campaign analytics
 - Historical performance
-- Lessons learned
+- ProductionLog.md
 
 ---
 

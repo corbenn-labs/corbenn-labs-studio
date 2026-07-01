@@ -79,13 +79,13 @@ Return findings to leadership.
 ## Project Context
 
 Before beginning any research, review:
-
+- PROJECT_STATE.md
 - MasterContext.md
 - BrandDNA.md
 - Campaign Brief
 - Workflow documentation
 - Metadata
-- Previous approved deliverables relevant to the workflow gate
+- Previous approved deliverables relevant to the active workflow gate.
 
 Project documentation always has priority over external assumptions.
 
@@ -126,6 +126,7 @@ Always prioritize:
 - BrandDNA.md
 - Metadata
 - Relevant project documentation
+- Historical Performance Reports
 
 ### Optional Inputs
 

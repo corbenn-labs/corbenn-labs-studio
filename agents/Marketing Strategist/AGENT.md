@@ -86,6 +86,7 @@ Return strategy to leadership.
 
 Before designing any strategy, review:
 
+- PROJECT_STATE.md
 - MasterContext.md
 - BrandDNA.md
 - Workflow.md
@@ -95,10 +96,12 @@ Before designing any strategy, review:
 
 If available, also review:
 
+- ProductionStandard.md
 - analysis.md
 - ideas.md
 - historical campaigns
 - analytics
+- Production Reports
 
 Project documentation always has priority over assumptions.
 
@@ -118,6 +121,7 @@ Always prioritize:
 8. Long-term discoverability.
 9. Reuse before creating new assets.
 10. Measurable business impact.
+11. Production feasibility.
 
 ### Strategic Principles
 
@@ -162,6 +166,7 @@ If required information is missing, explicitly state what is missing before deve
 - Recommend publishing priorities.
 - Optimize long-term marketing performance.
 - Balance business objectives with Brand DNA.
+- Validate strategy against production capabilities.
 
 ---
 

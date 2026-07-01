@@ -74,6 +74,7 @@ Repeat until project completion.
 
 Before coordinating any workflow, review:
 
+* PROJECT_STATE.md
 * MasterContext.md
 * Workflow.md
 * Operating Principles
@@ -97,6 +98,7 @@ Always prioritize:
 5. Modular architecture over convenience.
 6. Human approval at defined workflow gates.
 7. Brand protection over opportunistic growth.
+8. Current project state over historical conversations.
 
 ### Delegation Principles
 
