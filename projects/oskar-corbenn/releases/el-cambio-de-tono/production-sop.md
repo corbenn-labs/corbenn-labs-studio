@@ -108,3 +108,82 @@ Stereo
 ☐ Export verified
 
 ☐ Saved in project folder
+
+# Production SOP
+
+## Oskar Corbenn Shorts Production Standard
+
+### Timeline
+
+- Duplicate the Timeline_Template.
+- Never edit the master template directly.
+- Rename the duplicated timeline according to the Short ID.
+
+---
+
+### Audio
+
+- Find the strongest lyrical hook.
+- Keep the hook intact.
+- Do not extend the Short only to reach a target duration.
+
+---
+
+### Visuals
+
+- Select clips that communicate the emotion of the lyric.
+- Emotion is more important than literal representation.
+- Use slow cinematic pacing.
+- Avoid unnecessary visual effects.
+
+---
+
+### Text
+
+- White text.
+- One phrase at a time.
+- Minimal animation.
+- Position high enough to avoid covering the subject.
+
+---
+
+### Logo
+
+Position:
+Bottom Right
+
+Size:
+14%
+
+Opacity:
+75%
+
+---
+
+### Export
+
+Format:
+MP4
+
+Codec:
+H.264
+
+Resolution:
+1080x1920
+
+Frame Rate:
+30 fps
+
+Bitrate:
+15,000 Kb/s Constant Bitrate
+
+Expected File Size:
+10–25 MB
+
+---
+
+### Lessons Learned
+
+- The song determines the duration of the Short.
+- A complete emotional hook is better than an artificially longer edit.
+- Every visual should reinforce the emotion of the lyric.
