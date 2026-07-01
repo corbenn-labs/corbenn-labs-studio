@@ -56,7 +56,9 @@ Its purpose is to describe **what the specialist is**, **why it exists**, and **
 
 Detailed specifications belong in their dedicated documents.
 
-The AGENT.md should reference those documents instead of duplicating their contents.
+The AGENT.md should reference those documents when they exist.
+
+Until then, self-contained AGENT.md files remain fully compliant with this standard.
 
 This architecture establishes a **Single Source of Truth** for every part of the specialist.
 
