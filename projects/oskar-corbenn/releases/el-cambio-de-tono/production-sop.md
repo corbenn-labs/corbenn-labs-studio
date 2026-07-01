@@ -162,3 +162,51 @@ Consistency is more important than perfection.
 Every Short should strengthen the Oskar Corbenn brand.
 
 Every completed Short must be documented in Production Log.
+
+------------------------------------------------------------
+
+## Additional Production Learnings
+
+### Campaign Consistency
+
+A single song should generate multiple Shorts with different emotional objectives rather than repeating the same concept.
+
+Example emotional progression
+
+- Introduction
+- Impact
+- Metaphor
+- Identification
+- Reflection
+
+This creates a complete narrative ecosystem instead of isolated videos.
+
+---
+
+### Emotional Progression
+
+When producing multiple Shorts from the same song, each Short should represent a different emotional moment.
+
+Avoid repeating the same visual language across every edit.
+
+---
+
+### Visual Library Reuse
+
+Existing footage should always be prioritized.
+
+A well-organized media library reduces editing time while improving visual consistency across campaigns.
+
+---
+
+### Production Validation
+
+Before editing any Short:
+
+- Verify hook duration.
+- Verify storyboard duration.
+- Confirm text readability.
+- Confirm emotional objective.
+- Verify visual pacing.
+
+Only then begin editing.

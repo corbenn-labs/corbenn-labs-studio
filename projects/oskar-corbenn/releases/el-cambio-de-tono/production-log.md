@@ -162,3 +162,60 @@ Lessons Learned
 Estimated Production Time
 
 ≈35–45 minutes
+
+------------------------------------------------------------
+
+# Short 05 — Empiezan Mucho Antes de Partir
+
+Date
+
+2026-07-01
+
+Status
+
+Completed
+
+Timeline
+
+ECT_S05_EmpiezanMuchoAntesDePartir
+
+Song
+
+El Cambio de Tono
+
+Hook
+
+"Porque algunas despedidas
+empiezan mucho antes de partir."
+
+Duration
+
+≈9 seconds
+
+Export
+
+OC_ElCambioDeTono_Short05.mp4
+
+Production Notes
+
+- Final Short produced for the first release campaign of "El Cambio de Tono."
+- Focused on emotional understanding rather than emotional collapse.
+- Used slow pacing and reflective imagery to reinforce the realization that relationships often end long before people physically separate.
+- Continued using the official Oskar Corbenn production standard established during Shorts 02–04.
+
+Visual Sequence
+
+1. Empty dining space
+2. House / Open door
+3. Empty road or forest
+4. Person walking away
+
+Lessons Learned
+
+- Reflective storytelling creates a different emotional response than dramatic storytelling.
+- Ending a Short with quiet acceptance is often stronger than ending with sadness.
+- Maintaining consistent branding across multiple Shorts strengthens campaign identity.
+
+Estimated Production Time
+
+≈35–45 minutes
