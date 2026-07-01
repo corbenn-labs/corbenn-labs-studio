@@ -1,189 +1,164 @@
 # Oskar Corbenn Shorts Production SOP
 
-## Objective
+Version
+1.0
 
-Create emotionally engaging YouTube Shorts that introduce listeners to Oskar Corbenn and increase curiosity toward the full song.
+Purpose
 
----
+Define the official production workflow for every Oskar Corbenn Short.
 
-## Standard Specifications
+The objective is consistency, scalability, and continuous improvement.
 
-Platform:
-- YouTube Shorts
+------------------------------------------------------------
 
-Resolution:
-- 1080 x 1920
+## Pre-Production
 
-Frame Rate:
-- 30 fps
+1. Read the Content Engine report.
+2. Identify the strongest lyrical hook.
+3. Verify the actual duration inside the song.
+4. Select the emotional objective of the Short.
+5. Prepare the required footage.
 
-Codec:
-- H.264
+------------------------------------------------------------
 
-Container:
-- MP4
+## Timeline Creation
 
-Bitrate:
-- 15,000 Kbps Constant Bitrate
+- Never edit Timeline_Template directly.
+- Duplicate Timeline_Template.
+- Rename using:
 
-Length:
-- 15–20 seconds
+ECT_S##_ShortName
 
----
+Example
 
-## Editing Workflow
+ECT_S03_GrietaInvisible
 
-1. Select strongest emotional lyric.
-2. Cut audio.
-3. Select visual clips.
-4. Arrange visuals.
-5. Add subtitles.
-6. Add Oskar Corbenn logo.
-7. Review timing.
-8. Export.
-9. Upload.
-10. Document results.
+------------------------------------------------------------
 
----
+## Editing
 
-## Branding
+Use cinematic pacing.
 
-Logo:
-Bottom-right corner
+Prioritize emotion over literal interpretation.
 
-Opacity:
-75%
+Every visual must reinforce the lyric emotionally.
 
-Logo Size:
-14%
+Avoid unnecessary transitions.
 
-Font:
+------------------------------------------------------------
+
+## Typography
+
+Font
+
 Open Sans SemiBold
 
-Subtitle Color:
+Color
+
 White
 
-Subtitle Position:
-Upper center
+Animation
 
----
+Minimal
 
-## Naming Convention
+Display
 
-OC_<SongName>_Short01.mp4
+One phrase at a time.
 
-Examples:
+Always verify readability.
 
-OC_ElCambioDeTono_Short02.mp4
+------------------------------------------------------------
 
----
+## Logo
 
-## Export Settings
+Position
 
-Format:
+Bottom Right
+
+Size
+
+14%
+
+Opacity
+
+75%
+
+The logo is a signature, never the main subject.
+
+------------------------------------------------------------
+
+## Export
+
+Format
+
 MP4
 
-Codec:
-H264
+Codec
 
-Bitrate:
+H.264
+
+Resolution
+
+1080x1920
+
+Frame Rate
+
+30 FPS
+
+Bitrate
+
+Constant Bitrate
+
 15000 Kbps
 
-Audio:
-48 kHz
-Stereo
+Expected Size
 
----
+10–30 MB
+
+------------------------------------------------------------
 
 ## Quality Checklist
 
-☐ No spelling mistakes
+Before exporting verify:
 
-☐ Logo visible
+☐ Text is readable.
 
-☐ Audio synchronized
+☐ Audio is synchronized.
 
-☐ Emotional hook in first 3 seconds
+☐ Hook begins immediately.
 
-☐ Export verified
+☐ Logo is visible.
 
-☐ Saved in project folder
+☐ Visual rhythm supports the lyric.
 
-# Production SOP
+☐ Export settings are correct.
 
-## Oskar Corbenn Shorts Production Standard
+☐ File name follows convention.
 
-### Timeline
+------------------------------------------------------------
 
-- Duplicate the Timeline_Template.
-- Never edit the master template directly.
-- Rename the duplicated timeline according to the Short ID.
+## Naming Convention
 
----
+Timeline
 
-### Audio
+ECT_S##_ShortName
 
-- Find the strongest lyrical hook.
-- Keep the hook intact.
-- Do not extend the Short only to reach a target duration.
+Export
 
----
+OC_ElCambioDeTono_Short##.mp4
 
-### Visuals
+------------------------------------------------------------
 
-- Select clips that communicate the emotion of the lyric.
-- Emotion is more important than literal representation.
-- Use slow cinematic pacing.
-- Avoid unnecessary visual effects.
+## Core Production Principles
 
----
+The song determines the duration.
 
-### Text
+Never extend a Short just to reach a target length.
 
-- White text.
-- One phrase at a time.
-- Minimal animation.
-- Position high enough to avoid covering the subject.
+Emotion is more important than visual complexity.
 
----
+Consistency is more important than perfection.
 
-### Logo
+Every Short should strengthen the Oskar Corbenn brand.
 
-Position:
-Bottom Right
-
-Size:
-14%
-
-Opacity:
-75%
-
----
-
-### Export
-
-Format:
-MP4
-
-Codec:
-H.264
-
-Resolution:
-1080x1920
-
-Frame Rate:
-30 fps
-
-Bitrate:
-15,000 Kb/s Constant Bitrate
-
-Expected File Size:
-10–25 MB
-
----
-
-### Lessons Learned
-
-- The song determines the duration of the Short.
-- A complete emotional hook is better than an artificially longer edit.
-- Every visual should reinforce the emotion of the lyric.
+Every completed Short must be documented in Production Log.

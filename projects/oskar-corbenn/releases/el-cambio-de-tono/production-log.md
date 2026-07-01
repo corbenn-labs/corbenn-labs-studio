@@ -1,118 +1,164 @@
 # Production Log
 
----
-
-## Short 01
-
-Date:
-2026-06-20
-
-Song:
-El Cambio de Tono
-
-Status:
-Published
-
-Length:
-16 s
-
-Notes:
-
-First experimental Short.
-
-No logo.
-
-Manual editing.
+This document records the production history of every official short-form video created for the Oskar Corbenn project.
 
 ---
 
-## Short 02
+# Short 02 — Trueno Antes de Caer
 
-Date:
+Date
 2026-07-01
 
-Song:
+Status
+Completed
+
+Timeline
+ECT_S02_TruenoAntesDeCaer
+
+Song
 El Cambio de Tono
 
-Length:
-17.5 s
-
-Phrase:
+Hook
 
 "Escuché...
 el cambio de tono
 como un trueno
 antes de caer."
 
-Changes
+Duration
+17.5 seconds
 
-• Added official Oskar Corbenn logo.
-• Standardized 30 fps.
-• Created reusable master project.
-• Exported using Deliver page.
-• 15000 Kbps bitrate.
+Export
+OC_ElCambioDeTono_Short02.mp4
 
-Editing Time
+Export Settings
 
-≈ 1 hour
+- MP4
+- H.264
+- 1080x1920
+- 30 FPS
+- Constant Bitrate
+- 15000 Kbps
+
+Final Size
+
+22.6 MB
+
+Production Notes
+
+- First Short produced using the new standardized workflow.
+- Official Oskar Corbenn logo introduced.
+- First project exported through Deliver page.
+- Established the official visual identity for future Shorts.
 
 Lessons Learned
 
-Logo gives stronger branding.
+- DaVinci Resolve's estimated file size is inaccurate.
+- 15000 Kbps Constant Bitrate produces excellent quality.
+- The logo strengthens the brand without distracting from the story.
 
-Template project reduced editing time.
+Estimated Production Time
 
-Current Goal
+≈ 1 hour
 
-Reduce editing time below 30 minutes.
+------------------------------------------------------------
 
-# Production Log
+# Short 03 — Grieta Invisible
 
----
+Date
 
-## 2026-07-01
+2026-07-01
 
-### Short #03 — Grieta Invisible
+Status
 
-Status: Completed
+Completed
 
-Timeline:
+Timeline
+
 ECT_S03_GrietaInvisible
 
-Audio:
-Song: El Cambio De Tono
-Hook:
-"Como una grieta invisible
-abriéndose entre los dos"
+Song
 
-Final Duration:
+El Cambio de Tono
+
+Hook
+
+"Como una grieta invisible
+abriéndose entre los dos."
+
+Duration
+
 ≈7 seconds
 
-Export:
+Export
+
 OC_ElCambioDeTono_Short03.mp4
 
-Final Size:
+Final Size
+
 11.1 MB
 
-Logo:
-- Bottom Right
-- Size: 14%
-- Opacity: 75%
+Production Notes
 
-Visual Sequence
+- Original Content Engine recommendation assumed a 15–18 second Short.
+- Actual lyric duration was approximately 7 seconds.
+- The decision was made to preserve the original emotional hook instead of extending it with additional lyrics.
 
-1. Fog
-2. Two silhouettes
-3. Broken glass
-4. House in the rain
+Lessons Learned
 
-Observations
+- Never force a Short to meet a target duration.
+- The emotional hook determines the final length.
+- A complete 7-second story is stronger than a diluted 17-second edit.
 
-- The original Content Engine recommendation suggested a 15–18 second Short.
-- The actual lyrical hook only lasted around 7 seconds.
-- The decision was made to preserve the integrity of the hook instead of extending the Short with the following verse.
-- This produced a cleaner and more emotionally focused edit.
+Estimated Production Time
 
-Production Time
+≈45 minutes
 
-Approximately 45–60 minutes.
+------------------------------------------------------------
+
+# Short 04 — Silencio que Asiente
+
+Date
+
+2026-07-01
+
+Status
+
+Completed
+
+Timeline
+
+ECT_S04_SilencioQueAsiente
+
+Song
+
+El Cambio de Tono
+
+Hook
+
+"Yo asentía en silencio
+como cualquier otra ocasión."
+
+Duration
+
+≈9–10 seconds
+
+Export
+
+OC_ElCambioDeTono_Short04.mp4
+
+Production Notes
+
+- Focus shifted from visual impact to emotional identification.
+- Rain, hands, and domestic imagery reinforced the feeling of silent acceptance.
+- Continued using the standardized branding established in Short 02.
+
+Lessons Learned
+
+- Relatable emotional moments require slower pacing.
+- Minimal text allows the visuals to carry more emotional weight.
+- Consistency across Shorts strengthens the Oskar Corbenn identity.
+
+Estimated Production Time
+
+≈35–45 minutes
