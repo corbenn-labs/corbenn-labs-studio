@@ -84,6 +84,18 @@ The current phase is operational execution, evidence collection, and continuous 
 
 ---
 
+## Album Rollout — G2 Strategic Research
+
+- G2 Strategic Research **closed** (2026-07-02)
+- Deliverable: `projects/oskar-corbenn/marketing/release-cadence-research-report.md` (78% confidence)
+- Leadership decision: **conditional framework adoption** confirmed
+- Provisional model: 6-week waterfall singles, Friday releases, 4–6 week marketing arc per chapter, album capstone months 11–12; 8-week fallback if capacity strain
+- Dated publishing calendar **deferred** until ECT long-form anchor publishes and initial analytics captured
+- Pending: `projects/oskar-corbenn/marketing/razones-publishing-calendar.md` (Marketing Strategist, after anchor live)
+- No governing in-repo calendar existed at decision time; external original roadmap not supplied
+
+---
+
 # Next Actions
 
 1. Complete Tier 1 Presence Optimization.
@@ -93,6 +105,7 @@ The current phase is operational execution, evidence collection, and continuous 
 5. Collect DistroKid analytics.
 6. Continue documenting operational learnings.
 7. Prepare La Casa Más Chica pre-release.
+8. Queue Marketing Strategist for `razones-publishing-calendar.md` after long-form anchor + analytics baseline.
 
 ---
 
@@ -180,4 +193,4 @@ Continuous Improvement
 
 Milestone
 
-Corbenn Labs completed its first full operational cycle and formally incorporated Production Planning into the official workflow architecture.
+G2 Strategic Research closed. Album rollout framework conditionally adopted; dated calendar deferred pending ECT long-form anchor and analytics evidence.

@@ -101,3 +101,33 @@ The system demonstrated correct specialist delegation, workflow integrity, and d
 5. Prepare La Casa Más Chica.
 
 ---
+
+## 2026-07-02
+
+### Session Summary
+
+Completed G2 Strategic Research on *Razones Para Quedarme* release cadence. CEO reviewed Researcher deliverable and leadership confirmed conditional framework adoption.
+
+### Completed
+
+- Research Report: `projects/oskar-corbenn/marketing/release-cadence-research-report.md` (78% confidence; all six research questions answered)
+- CEO G2 gate review and leadership decision recorded
+
+### Key Decisions
+
+- **G2 Strategic Research:** Closed — approved at 78% confidence
+- **Album rollout framework:** Conditionally adopted (6-week waterfall, Friday releases, per-chapter marketing arc, album capstone months 11–12; 8-week fallback authorized)
+- **Dated calendar:** Deferred until ECT long-form anchor publishes and initial analytics captured
+- **Rejected for cold-start phase:** 2-week, 4-week aggressive, and quarterly cadences
+- **La Casa Más Chica:** Pre-release marketing remains blocked until Tier A Readiness Checklist passes
+- **Next specialist task (queued):** Marketing Strategist to produce `razones-publishing-calendar.md` after anchor + analytics baseline
+
+### Next Session
+
+1. Execute Tier 1 Presence Optimization.
+2. Publish ECT long-form visualizer / anchor.
+3. Collect YouTube Studio and DistroKid analytics.
+4. Do not activate *La Casa Más Chica* pre-release until Readiness Checklist passes.
+5. Marketing Strategist calendar task triggers after anchor evidence is available.
+
+---
