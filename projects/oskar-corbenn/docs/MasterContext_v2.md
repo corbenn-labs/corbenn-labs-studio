@@ -1,3 +1,9 @@
+Status: Draft v2.0
+Phase: Operational Optimization
+Last Updated: 2026-07-02
+Author: Corbenn Labs
+
+
 MasterContext_v2
 Corbenn Labs Vision
 
@@ -12,6 +18,7 @@ AI specialists exist to research, think, create, organize, and execute within cl
 The operating system evolves through validated iterations rather than assumptions.
 
 Operating Philosophy
+
 
 Core principles:
 
@@ -180,3 +187,16 @@ Guiding Rule
 A new specialist is created only after repetitive human work has been observed enough times to justify automation.
 
 Corbenn Labs automates validated work, never hypothetical work.
+
+# Foundational Rule
+
+Every new specialist must eliminate validated repetitive human work.
+
+Corbenn Labs never creates specialists for hypothetical problems.
+
+
+This document defines the current validated architecture of Corbenn Labs.
+
+It should evolve only through validated operational experience, never through speculation.
+
+Corbenn Labs prioritizes execution over documentation and automation over repetitive manual work.
