@@ -22,6 +22,10 @@ Agents should remain modular, replaceable, and loosely coupled.
 
 No agent may assume responsibilities that belong to another specialist.
 
+Operational workflow phases may exist without requiring a dedicated specialist.
+
+Corbenn Labs distinguishes between specialists (who make decisions) and workflow phases (which transform deliverables into production assets).
+
 ---
 
 # Standard Folder Structure
@@ -176,7 +180,7 @@ Defines what the specialist produces.
 
 Detailed deliverable specifications belong in **Outputs.md**.
 
-The AGENT.md should only reference it.
+The AGENT.md should only reference them.
 
 ---
 
@@ -218,19 +222,6 @@ They never describe implementation details.
 
 ---
 
-## Version
-
-Every AGENT.md must include:
-
-- Current Version
-- Current Status
-
-Release history belongs in **CHANGELOG.md**.
-
-Git remains the authoritative version history.
-
----
-
 # Design Principles
 
 Every Corbenn Labs agent should be:
@@ -248,7 +239,11 @@ Agents collaborate through documented deliverables.
 
 Agents never replace other specialists.
 
-Every architectural element should have a single source of truth.
+Workflow phases are documented independently from specialist responsibilities.
+
+Every architectural element has a single source of truth.
+
+The operating system evolves through operational evidence rather than theoretical design.
 
 ---
 
@@ -280,9 +275,9 @@ Every type of information has one authoritative location.
 | Workflow | Workflow.md |
 | Inputs | Inputs.md |
 | Outputs | Outputs.md |
-| Decision rules | DecisionFramework.md |
-| Release history | CHANGELOG.md |
-| Specialist overview | AGENT.md |
+| Decision Rules | DecisionFramework.md |
+| Release History | CHANGELOG.md |
+| Specialist Overview | AGENT.md |
 
 AGENT.md should reference these documents instead of duplicating them.
 
@@ -290,7 +285,7 @@ AGENT.md should reference these documents instead of duplicating them.
 
 # Agent Lifecycle
 
-Every new Corbenn Labs agent follows this lifecycle.
+Every Corbenn Labs agent follows this lifecycle.
 
 Architecture
 
@@ -300,11 +295,15 @@ Implementation
 
 ↓
 
-Validation
+Operational Validation
 
 ↓
 
 Production Use
+
+↓
+
+Evidence Collection
 
 ↓
 
@@ -318,7 +317,7 @@ Version Update
 
 Release
 
-Agents evolve through versioned iterations rather than ad-hoc modifications.
+Agents evolve through versioned iterations supported by operational evidence rather than ad-hoc modifications.
 
 ---
 
@@ -326,24 +325,51 @@ Agents evolve through versioned iterations rather than ad-hoc modifications.
 
 Corbenn Labs agents function as specialized components within a unified operating system.
 
+The operating system separates:
+
+- Specialists (decision makers)
+- Workflow phases (operational transformations)
+- Human execution
+- Human approval
+
 Consistency is more valuable than individual implementation style.
 
-The operating system should become more modular, maintainable, and scalable after every architectural iteration.
+The operating system should become more modular, maintainable, scalable, and evidence-driven after every operational cycle.
 
 ---
 
-## Version
+# Version
 
 Current Version
 
-Agent Standard v2.2
+Agent Standard v2.3
 
 Status:
-Development
+
+Operational Validation
 
 ---
 
-## Release History
+# Release History
+
+### v2.3
+
+Status:
+Operational Validation
+
+Released:
+2026-07-02
+
+Major Changes
+
+- Distinguished workflow phases from specialist agents.
+- Incorporated Production Planning into the official workflow architecture.
+- Updated the agent lifecycle with Operational Validation and Evidence Collection.
+- Reinforced evidence-driven architectural evolution.
+- Clarified separation between decision-making specialists and operational workflow phases.
+- Matured the operating system following the first complete production cycle.
+
+---
 
 ### v2.2
 
