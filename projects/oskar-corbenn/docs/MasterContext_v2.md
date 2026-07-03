@@ -1,4 +1,4 @@
-Status: Draft v2.0
+Status: Draft v2.1
 Phase: Operational Optimization
 Last Updated: 2026-07-02
 Author: Corbenn Labs
@@ -18,6 +18,18 @@ AI specialists exist to research, think, create, organize, and execute within cl
 The operating system evolves through validated iterations rather than assumptions.
 
 Operating Philosophy
+
+## Authority Order
+
+When conflicts exist, authority follows this order:
+
+1. SYSTEM_BOOT.md
+2. MasterContext_v2.md
+3. PROJECT_STATE.md
+4. Project-specific documentation
+5. Agent outputs
+
+No lower-level document may override a higher-level authority.
 
 
 Core principles:
@@ -193,6 +205,22 @@ Corbenn Labs automates validated work, never hypothetical work.
 Every new specialist must eliminate validated repetitive human work.
 
 Corbenn Labs never creates specialists for hypothetical problems.
+
+## Governance
+
+MasterContext_v2.md is a protected document.
+
+Only the CEO may authorize structural modifications to this architecture.
+
+Agents may recommend changes but may never modify this document autonomously.
+
+## Document Scope
+
+MasterContext_v2.md defines the architecture of Corbenn Labs.
+
+It does not track operational progress.
+
+Current execution status, active priorities, workflow gates, and temporary decisions belong exclusively in PROJECT_STATE.md.
 
 
 This document defines the current validated architecture of Corbenn Labs.
