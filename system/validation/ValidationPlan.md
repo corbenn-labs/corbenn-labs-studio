@@ -1,5 +1,11 @@
 # Corbenn Labs Core Validation Plan
 
+Historical Notice:
+
+This document is preserved as a validation planning reference.
+
+Current operational validation status is governed by `PROJECT_STATE.md` and `VERSION.md`.
+
 ## Objective
 
 Validate that Corbenn Labs Core can execute complete workflows without architectural inconsistencies.

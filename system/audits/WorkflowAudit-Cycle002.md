@@ -1,5 +1,13 @@
 # Workflow Audit — Cycle 002
 
+Historical Notice:
+
+This document is preserved as an incomplete Cycle 002 workflow audit snapshot.
+
+Current architecture is governed by `SYSTEM_BOOT.md` and `projects/oskar-corbenn/docs/MasterContext_v2.md`.
+
+Current operational status is governed by `PROJECT_STATE.md`.
+
 ## Objective
 
 Review the complete Corbenn Labs workflow to identify:

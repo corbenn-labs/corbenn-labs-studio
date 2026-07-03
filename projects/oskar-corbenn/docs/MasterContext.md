@@ -1,5 +1,15 @@
 # Oskar Corbenn Master Context
 
+Scope Notice:
+
+This document contains project-specific context for Oskar Corbenn.
+
+It does not govern Corbenn Labs architecture.
+
+Current Corbenn Labs architecture is governed by `MasterContext_v2.md`.
+
+Current operational status is governed by `PROJECT_STATE.md`.
+
 ## Mission
 
 Create authentic music that connects deeply with people going through difficult moments.

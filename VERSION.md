@@ -2,6 +2,12 @@
 
 Core v2.0
 
+Authority:
+
+This file records Core version status only.
+
+Current operational priorities, blockers, and next actions are governed by `PROJECT_STATE.md`.
+
 Status
 
 🟢 Operational Validation Complete

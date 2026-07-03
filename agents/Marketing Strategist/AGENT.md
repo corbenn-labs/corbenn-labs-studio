@@ -87,7 +87,8 @@ Return strategy to leadership.
 Before designing any strategy, review:
 
 - PROJECT_STATE.md
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Workflow.md
 - Campaign Brief
@@ -140,7 +141,8 @@ Always prioritize:
 - Workflow Gate
 - Campaign Brief
 - Research Report
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 
 ### Optional Inputs

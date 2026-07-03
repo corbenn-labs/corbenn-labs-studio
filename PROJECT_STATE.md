@@ -1,5 +1,11 @@
 # Project State
 
+Authority:
+
+This document is the single source of truth for current operational status, active priorities, blockers, and temporary execution decisions.
+
+Architecture is governed by `SYSTEM_BOOT.md` and `projects/oskar-corbenn/docs/MasterContext_v2.md`.
+
 ## Current Focus
 
 Operate, validate, and continuously improve Corbenn Labs through real-world execution.

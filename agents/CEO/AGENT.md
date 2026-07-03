@@ -75,7 +75,8 @@ Repeat until project completion.
 Before coordinating any workflow, review:
 
 * PROJECT_STATE.md
-* MasterContext.md
+* MasterContext_v2.md
+* Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 * Workflow.md
 * Operating Principles
 * Architecture documentation

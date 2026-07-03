@@ -45,7 +45,8 @@ Owns:
 - Campaign Brief
 - Marketing Strategy
 - Research Report
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Song assets
 

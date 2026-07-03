@@ -1,5 +1,11 @@
 # Production Rules
 
+Authority Notice:
+
+This document is the reusable production rule source of truth for Content Engine production guidance.
+
+Project-specific SOPs and production logs may reference these rules but should not duplicate them as governing standards.
+
 Version: 1.0
 
 Purpose

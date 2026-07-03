@@ -4,7 +4,14 @@ Receive a business objective.
 
 ↓
 
-Review MasterContext.md.
+Review governing architecture context.
+
+Required:
+
+- `projects/oskar-corbenn/docs/MasterContext_v2.md`
+- `PROJECT_STATE.md`
+
+Project-specific context, including `MasterContext.md`, should be reviewed when relevant to the active project.
 
 ↓
 

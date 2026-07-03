@@ -1,5 +1,13 @@
 # Oskar Corbenn Shorts Production SOP
 
+Authority Notice:
+
+This document is the project-specific execution procedure for `El Cambio de Tono` Shorts.
+
+Reusable production rules are governed by `agents/ContentEngine/ProductionStandard.md`.
+
+Completed production history is governed by `production-log.md`.
+
 Version
 1.0
 

@@ -80,7 +80,8 @@ Return findings to leadership.
 
 Before beginning any research, review:
 - PROJECT_STATE.md
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Campaign Brief
 - Workflow documentation
@@ -122,7 +123,8 @@ Always prioritize:
 - Business Objective
 - Workflow Gate
 - Campaign Brief
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Metadata
 - Relevant project documentation

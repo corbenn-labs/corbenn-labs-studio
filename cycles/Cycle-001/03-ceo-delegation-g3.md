@@ -63,7 +63,7 @@ Include all standard outputs from your agent definition:
 - Publishing Sequence, Content Priority, Content Mix
 - Success Metrics, KPIs, Optimization Opportunities, Next Actions
 
-Plus the output format from `agents/Marketing Strategist/outputs.md`: Objective, Analysis, Options, Recommendation, Risks, Confidence (0–100%).
+Plus the output format from `agents/Marketing Strategist/Outputs.md`: Objective, Analysis, Options, Recommendation, Risks, Confidence (0–100%).
 
 Present multiple strategic options with trade-offs — not a single unchecked recommendation.
 

@@ -34,13 +34,15 @@ Every agent should contain:
 
 AGENT.md
 
-workflow.md
+Workflow.md
 
-inputs.md
+Inputs.md
 
-outputs.md
+Outputs.md
 
-examples.md
+DecisionFramework.md
+
+CHANGELOG.md
 
 ## Folders
 

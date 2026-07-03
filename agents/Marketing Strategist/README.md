@@ -39,7 +39,8 @@ Supporting Outputs
 - CEO Delegation Brief
 - Campaign Brief
 - Research Report
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Workflow.md
 - Performance analytics (when available)

@@ -1,5 +1,13 @@
 # Production Log
 
+Authority Notice:
+
+This document records completed production history only.
+
+Reusable production rules are governed by `agents/ContentEngine/ProductionStandard.md`.
+
+Project-specific execution procedure is governed by `production-sop.md`.
+
 This document records the production history of every official short-form video created for the Oskar Corbenn project.
 
 ---

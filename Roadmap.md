@@ -1,5 +1,11 @@
 # Corbenn Labs Roadmap
 
+Historical Notice:
+
+This document is preserved as a historical roadmap snapshot.
+
+Current operational priorities, blockers, and next actions are governed by `PROJECT_STATE.md`.
+
 ## Current Release
 
 ✅ Core v1.0

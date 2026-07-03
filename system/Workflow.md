@@ -1,5 +1,13 @@
 # Corbenn Labs — Project Workflow
 
+Authority Notice:
+
+This document is an operating procedure reference.
+
+Current architecture is governed by `SYSTEM_BOOT.md` and `projects/oskar-corbenn/docs/MasterContext_v2.md`.
+
+Current operational status is governed by `PROJECT_STATE.md`.
+
 **Document type:** Operating Procedure  
 **Version:** 1.0  
 **Scope:** All Corbenn Labs projects, products, and public initiatives  
@@ -142,7 +150,7 @@ Every project follows ten sequential phases. Phases may overlap in preparation, 
 
 **Required outputs:**
 
-- Research report using the standard Researcher format (`agents/researcher/outputs.md`).
+- Research report using the standard Researcher format (`agents/researcher/Outputs.md`).
 - Cited sources.
 - Clear distinction between evidence and observations.
 - Actionable recommendations with confidence score.
@@ -175,7 +183,7 @@ Every project follows ten sequential phases. Phases may overlap in preparation, 
 
 **Required outputs:**
 
-- Strategy document using the standard Marketing Strategist format (`agents/Marketing Strategist/outputs.md`):
+- Strategy document using the standard Marketing Strategist format (`agents/Marketing Strategist/Outputs.md`):
   - Objective
   - Analysis
   - Options

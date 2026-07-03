@@ -1,5 +1,11 @@
 # Architecture Audit — Cycle 002
 
+Historical Notice:
+
+This document is preserved as a Cycle 002 audit snapshot.
+
+Current architecture is governed by `SYSTEM_BOOT.md` and `projects/oskar-corbenn/docs/MasterContext_v2.md`.
+
 ## Objective
 
 Review the Corbenn Labs architecture to identify opportunities for improving modularity, scalability, maintainability, and workflow consistency before releasing Core v2.0.

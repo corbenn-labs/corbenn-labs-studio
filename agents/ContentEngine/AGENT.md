@@ -47,7 +47,8 @@ Generate production-ready assets that minimize creative friction while preservin
 Before starting any work, always read:
 
 - PROJECT_STATE.md
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Campaign Brief
 - Approved Marketing Strategy
@@ -72,7 +73,8 @@ ProductionStandard.md always overrides internal assumptions regarding production
 
 ### Project Inputs
 
-- MasterContext.md
+- MasterContext_v2.md
+- Project-specific context documents, including MasterContext.md when working on Oskar Corbenn
 - BrandDNA.md
 - Campaign Brief
 - Marketing Strategy

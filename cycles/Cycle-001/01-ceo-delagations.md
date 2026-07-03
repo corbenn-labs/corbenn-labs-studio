@@ -40,7 +40,7 @@ Reduce uncertainty so Corbenn Labs can decide how to increase discoverability, a
 - `projects/oskar-corbenn/album/el-cambio-de-tono/campaign-brief.md`
 - `projects/oskar-corbenn/album/el-cambio-de-tono/metadata.md`
 
-Execute according to `agents/researcher/agent.md`.
+Execute according to `agents/researcher/AGENT.md`.
 
 **Scope — answer the five open questions in the Campaign Brief:**
 
@@ -54,7 +54,7 @@ Execute according to `agents/researcher/agent.md`.
 
 `projects/oskar-corbenn/album/el-cambio-de-tono/research-report.md`
 
-Format: `agents/researcher/outputs.md` template. Confidence scored 0–100%.
+Format: `agents/researcher/Outputs.md` template. Confidence scored 0–100%.
 
 **Boundaries**
 

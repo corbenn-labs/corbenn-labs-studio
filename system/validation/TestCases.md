@@ -1,5 +1,11 @@
 # Validation Test Cases
 
+Historical Notice:
+
+This document is preserved as a validation test planning reference.
+
+Current operational validation status is governed by `PROJECT_STATE.md` and `VERSION.md`.
+
 ## Test Case 001
 
 ### Name

@@ -6,7 +6,7 @@
 **Date:** 2026-07-01  
 **Status:** Production-ready — awaiting G7 Human Review  
 **Audio master:** `El Cambio De Tono.wav` *(measured: 233.67 s / 3:53.67)*  
-**Governing inputs:** `presence-optimization-strategy.md` (Decision 4A/4B), `ideas.md` (LF-1, LF-2, LF-6), `analysis.md`, `Productionstandard.md`
+**Governing inputs:** `presence-optimization-strategy.md` (Decision 4A/4B), `ideas.md` (LF-1, LF-2, LF-6), `analysis.md`, `ProductionStandard.md`
 
 **Scope:** LF-1 (primary), LF-2 (interim fallback), LF-6 branding. LF-4/LF-5 out of scope.
 
