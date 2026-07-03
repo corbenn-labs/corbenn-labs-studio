@@ -1,47 +1,47 @@
-# Executive Briefing Agent Inputs
+# Inputs Del Executive Briefing Agent
 
-## Required Inputs
+## Inputs Obligatorios
 
-### For Deliverable Briefing
+### Para Briefing De Entregable
 
-- Source deliverable
-- Responsible specialist or source owner
-- Workflow gate or workflow phase
-- Decision required
+- Entregable fuente
+- Especialista responsable o dueño de la fuente
+- Gate del workflow o fase del workflow
+- Decisión requerida
 - `PROJECT_STATE.md`
 - `projects/oskar-corbenn/docs/MasterContext_v2.md`
-- Relevant project-specific context documents
+- Documentos relevantes del proyecto activo
 
-### For Session Briefing
+### Para Briefing De Sesión
 
-- Current operational state
-- Active priorities
-- Current blockers
-- Next action requested
+- Estado operativo actual
+- Prioridades activas
+- Bloqueos actuales
+- Siguiente acción solicitada
 - `PROJECT_STATE.md`
 - `projects/oskar-corbenn/docs/MasterContext_v2.md`
 
 ---
 
-## Optional Inputs
+## Inputs Opcionales
 
-When available:
+Cuando estén disponibles:
 
-- Confidence level
-- Risk severity
-- Previous approved deliverables
+- Nivel de confianza
+- Severidad de riesgos
+- Entregables aprobados previamente
 - Analytics
-- Human feedback
+- Feedback humano
 - Session log
-- Production status
-- Timing or effort estimates from the source material
+- Estado de producción
+- Estimaciones de tiempo o esfuerzo presentes en el material fuente
 
 ---
 
-## Missing Input Rule
+## Regla Para Inputs Faltantes
 
-If a required input is missing, the Executive Briefing Agent must state what is missing before producing the briefing.
+Si falta un input obligatorio, el Executive Briefing Agent debe indicar qué falta antes de producir el briefing.
 
-It may still summarize available information if the missing input does not change the meaning of the source material.
+Puede resumir la información disponible si el input faltante no cambia el significado del material fuente.
 
-It must not fill gaps with assumptions.
+No debe llenar vacíos con suposiciones.

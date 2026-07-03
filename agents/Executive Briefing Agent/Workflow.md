@@ -1,117 +1,123 @@
-# Executive Briefing Agent Workflow
+# Workflow Del Executive Briefing Agent
 
-Receive briefing request.
-
-↓
-
-Identify briefing mode.
-
-Allowed modes:
-
-- Deliverable Briefing
-- Session Briefing
+Recibir solicitud de briefing.
 
 ↓
 
-Verify source material.
+Identificar modo de operación.
 
-Required:
+Modos permitidos:
 
-- Source deliverable or current session context
-- Responsible specialist or source owner
-- Workflow gate or operational context
-- Decision required or next action requested
+- Briefing De Entregable
+- Briefing De Sesión
 
 ↓
 
-Review governing context.
+Verificar material fuente.
 
-Required:
+Obligatorio:
+
+- Entregable fuente o contexto actual de sesión
+- Especialista responsable o dueño de la fuente
+- Gate del workflow o contexto operativo
+- Decisión requerida o siguiente acción solicitada
+
+↓
+
+Revisar contexto gobernante.
+
+Obligatorio:
 
 - `SYSTEM_BOOT.md`
 - `projects/oskar-corbenn/docs/MasterContext_v2.md`
 - `PROJECT_STATE.md`
-- Relevant project-specific context
+- Contexto relevante del proyecto activo
 
 ↓
 
-Extract only source-supported information.
+Extraer únicamente información respaldada por la fuente.
 
-Include:
+Incluir:
 
-- Facts
-- Conclusions
-- Risks
-- Blockers
-- Confidence levels
-- Decisions required
-- Next actions
-
-↓
-
-Produce Spanish executive briefing.
+- Hechos
+- Conclusiones
+- Riesgos
+- Bloqueos
+- Niveles de confianza
+- Decisiones requeridas
+- Siguientes acciones
 
 ↓
 
-Return briefing to CEO or human leadership.
+Producir briefing ejecutivo en español con estructura ejecutiva obligatoria.
+
+El briefing debe sentirse como comunicación directa al CEO, no como reporte técnico resumido.
+
+Debe usar lenguaje natural, claro, profesional y fácil de leer.
+
+Debe cerrar indicando si el CEO necesita abrir el documento original.
 
 ↓
 
-Stop.
+Entregar briefing al CEO o liderazgo humano.
+
+↓
+
+Detenerse.
 
 ---
 
-## Mode 1 — Deliverable Briefing
+## Modo 1 — Briefing De Entregable
 
-Purpose:
+Propósito:
 
-Summarize a specialist deliverable after completion and before CEO or human review.
+Resumir un entregable de especialista después de completarse y antes de la revisión del CEO o del humano.
 
-Use when:
+Usar cuando:
 
-- Researcher returns a research report.
-- Marketing Strategist returns a strategy.
-- Content Engine returns a production package.
-- A workflow phase produces a reviewable output.
+- Researcher entrega un reporte de investigación.
+- Marketing Strategist entrega una estrategia.
+- Content Engine entrega un paquete de producción.
+- Una fase del workflow produce un output revisable.
 
-Do not use to:
+No usar para:
 
-- Approve the deliverable.
-- Rewrite the deliverable.
-- Add analysis not present in the source.
-
----
-
-## Mode 2 — Session Briefing
-
-Purpose:
-
-Summarize the current operational state, blockers, and next action at the beginning or end of a working session.
-
-Use when:
-
-- The CEO or human needs a concise project status.
-- The system resumes after a gap.
-- Multiple active workstreams need a simple operational snapshot.
-
-Do not use to:
-
-- Replace `PROJECT_STATE.md`.
-- Change priorities.
-- Create a new roadmap.
+- Aprobar el entregable.
+- Reescribir el entregable.
+- Agregar análisis que no esté presente en la fuente.
 
 ---
 
-## Deferred Mode — Project Executive Briefing
+## Modo 2 — Briefing De Sesión
 
-Status:
+Propósito:
 
-Deferred.
+Resumir el estado operativo actual, bloqueos y siguiente acción al inicio o cierre de una sesión de trabajo.
 
-Reason:
+Usar cuando:
 
-This mode may become useful when Corbenn Labs manages multiple active projects at the same time.
+- El CEO o humano necesita un estado breve del proyecto.
+- El sistema se retoma después de una pausa.
+- Varias líneas activas de trabajo necesitan una fotografía operativa simple.
 
-It is not implemented now because only one active project currently governs operational execution.
+No usar para:
 
-Adding it early would create unnecessary complexity.
+- Reemplazar `PROJECT_STATE.md`.
+- Cambiar prioridades.
+- Crear un nuevo roadmap.
+
+---
+
+## Modo Diferido — Briefing Ejecutivo De Proyecto
+
+Estado:
+
+Diferido.
+
+Razón:
+
+Este modo puede volverse útil cuando Corbenn Labs gestione varios proyectos activos al mismo tiempo.
+
+No se implementa ahora porque solo un proyecto activo gobierna la ejecución operativa actual.
+
+Agregarlo antes de tiempo crearía complejidad innecesaria.
