@@ -383,3 +383,49 @@ Reducir ciclos innecesarios de verificación y mejorar la toma de decisiones bas
 
 Dependencias:
 Futura fase de refinamiento del CEO.
+
+BK-008
+
+Título:
+El CEO debe verificar la existencia de documentación interna antes de declarar un bloqueo documental.
+
+Estado:
+NEW
+
+Prioridad:
+P2
+
+Categoría:
+CEO
+
+Descripción:
+Durante la validación de la Fase 2, el CEO asumió inicialmente que faltaban documentos internos (BrandDNA, Campaign Brief, etc.) cuando estos ya existían en el repositorio.
+
+Acción futura:
+Antes de abrir una fase de Source Verification, el CEO deberá confirmar si la documentación existe o fue referenciada por un especialista.
+
+Estado:
+Pospuesto hasta la fase de refinamiento del CEO.
+
+BK-009
+
+Título:
+Integración de Corbenn Labs con capacidades nativas de Cursor.
+
+Estado:
+NEW
+
+Prioridad:
+P1
+
+Categoría:
+Fase 3
+
+Descripción:
+Evaluar e integrar progresivamente capacidades nativas de Cursor (AGENTS.md, Project Rules, Skills, Subagents y otras) para reducir la carga operativa del usuario sin modificar la arquitectura de Corbenn Labs.
+
+Acción futura:
+Realizar experimentos controlados antes de cualquier implementación permanente.
+
+Estado:
+Pendiente de diseño e implementación durante la Fase 3.
