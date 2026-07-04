@@ -131,3 +131,34 @@ Completed G2 Strategic Research on *Razones Para Quedarme* release cadence. CEO 
 5. Marketing Strategist calendar task triggers after anchor evidence is available.
 
 ---
+
+## 2026-07-04
+
+### Session Summary
+
+VOC-002 Phase A Attempt 1 closed as formal FAIL after protocol violation. Maintainer recovered repository baseline and registered experimental control decisions.
+
+### Key Decisions
+
+- **Experimental metadata policy:** From next validatable session, record mandatorily executor model, invoked role, invocation template/standard, active experiment/bug/gate/step, and modification permission or read-only mode.
+- **VOC-001:** Remains valid with methodological reservation.
+- **VOC-002 Phase A Attempt 1:** Formal FAIL — protocol violation; Attempt 1 executor model UNKNOWN / NOT RECORDED (insufficient evidence).
+- **VOC-002 Phase A Attempt 2:** Not started; paused until explicit future authorization. If resumed, fixed executor model is GPT-5.5 Medium for reproducibility.
+- **Repository recovery:** `publication-log.md` and `PROJECT_STATE.md` restored to pre-Attempt-1 baseline.
+- **Core development:** Temporarily frozen after technical recovery.
+- **Next work:** Strategic Reality Check focused on Oskar Corbenn, outside Cursor.
+
+### Completed
+
+- Maintainer diagnostic (Composer 2.5, read-only)
+- Methodological evaluation (GPT-5.5 Medium, read-only)
+- Repository recovery (GPT-5.5 Medium, authorized)
+
+### Next Session
+
+1. Do not continue or repeat VOC-002 now.
+2. Do not open G9.
+3. Preserve mandatory experimental metadata policy for future validatable sessions.
+4. Proceed next with the external strategic Reality Check focused on Oskar Corbenn.
+
+---
