@@ -1,310 +1,234 @@
 # Content Analysis — El Cambio de Tono
 
-**Agent:** Content Engine  
+**Agente:** Content Engine  
 **Gate:** G4 — Content Analysis  
-**Project:** Oskar Corbenn — *El Cambio de Tono* (post-release campaign)  
-**Date:** 2026-06-29  
-**Status:** Complete — awaiting human review (Gate G4)
+**Proyecto:** Oskar Corbenn — *El Cambio de Tono*  
+**Fecha:** 2026-07-03  
+**Estado:** Complete — for CEO review  
+**Modo:** Alineado a G3 aprobado en modalidad condicional
 
-**Inputs used:**
+---
+
+## Alcance Operativo
+
+Este documento ejecuta únicamente G4 — Content Analysis. No abre G5 ni G6, no produce ideas accionables, hooks, captions, Shorts, scripts, thumbnails, prompts, assets, calendario ni instrucciones de publicación.
+
+La estrategia de YouTube aprobada se toma solo como dirección condicional: YouTube Foundation First, long-form como destino de profundidad, Shorts como insumos controlados de descubrimiento, identidad consolidada y medición antes de escalar. No se fijan KPIs definitivos, cadencia cerrada ni expectativas de conversión.
+
+## Inputs Usados
+
+Fuentes obligatorias:
+
+- `agents/ContentEngine/AGENT.md`
+- `agents/ContentEngine/Workflow.md`
+- `agents/ContentEngine/Inputs.md`
+- `agents/ContentEngine/Outputs.md`
+- `agents/ContentEngine/DecisionFrameWork.md`
+- `SYSTEM_BOOT.md`
+- `PROJECT_STATE.md`
+- `projects/oskar-corbenn/docs/MasterContext_v2.md`
 - `projects/oskar-corbenn/docs/MasterContext.md`
 - `projects/oskar-corbenn/docs/BrandDNA.md`
-- `projects/oskar-corbenn/album/el-cambio-de-tono/campaign-brief.md`
-- `projects/oskar-corbenn/album/el-cambio-de-tono/marketing-strategy.md` *(approved — governing strategy)*
-- `projects/oskar-corbenn/album/el-cambio-de-tono/research-report.md`
-- `projects/oskar-corbenn/album/el-cambio-de-tono/metadata.md`
-- `projects/oskar-corbenn/album/el-cambio-de-tono/lyrics.md`
-- `projects/oskar-corbenn/album/el-cambio-de-tono/story.md`
-- Cover artwork: `EL CAMBIO DE TONO.jpeg`
-- Audio: `El Cambio De Tono.wav` *(referenced; not re-analyzed in this phase)*
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/campaign-brief.md`
+- `projects/oskar-corbenn/marketing/youtube-growth-strategy.md`
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/metadata.md`
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/lyrics.md`
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/story.md`
 
-**Not produced (G5–G6 scope):** `ideas.md`, hooks, captions, posts, shorts scripts
+Material creativo:
 
-**Strategic alignment:** Analysis informs approved Marketing Strategy priorities — long-form anchor, story-behind-song depth, story-hook Shorts funnel, and *Razones Para Quedarme* Chapter 1 framing. Does not replace or modify strategy.
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/El Cambio De Tono.wav`
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/EL CAMBIO DE TONO.jpeg`
 
----
+Material contextual permitido:
 
-## Core Message
+- `projects/oskar-corbenn/audits/YouTubeEvidenceGapReview.md`
+- `projects/oskar-corbenn/audits/OfficialPresence.md`
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/production-log.md`
+- `projects/oskar-corbenn/analytics/short-performance.md`
 
-**Las despedidas más importantes no empiezan con gritos ni con puertas que se cierran. Empiezan cuando el corazón escucha un cambio de tono antes de que la mente pueda nombrarlo.**
+Límites de evidencia:
 
-*El Cambio de Tono* no narra una ruptura explícita. Narra el instante previo: la intuición de que algo ya no suena igual, aunque la superficie — la conversación cotidiana, la rutina, la lluvia en el cristal — permanezca intacta. El mensaje central es que **reconocer ese cambio silencioso también forma parte de amar** — y que aprender a escucharlo es un acto de honestidad emocional, no de pesimismo.
-
-Este mensaje conecta directamente con Brand DNA: acompañar el viaje emocional completo (amor, dolor, esperanza, reconstrucción) y recordar que incluso después de las tormentas puede existir una razón para seguir adelante. Aquí, la tormenta aún no ha caído; el oyente está en el umbral — el momento más difícil, según `story.md`, porque "todavía no existe un final, pero el corazón ya empezó a entenderlo."
-
-**Album-era framing (Chapter 1):** Como primer sencillo de *Razones Para Quedarme*, esta canción establece el arco emocional del álbum: percibir el cambio antes de poder actuar. No es el final; es el primer aviso.
-
----
-
-## Main Emotion
-
-**Intriga** *(from `metadata.md`)*
-
-La intriga domina porque la canción habita la incertidumbre activa: algo ha cambiado, pero no hay pruebas, no hay palabras explícitas, no hay confirmación. El oyente — y el narrador — están en estado de escucha intensa, buscando señales en lo cotidiano. La producción musical refuerza esto: comienza íntima y contenida, y la tensión crece lentamente "como una tormenta acercándose poco a poco" (`story.md`).
+- El cover fue revisado visualmente.
+- El audio fue considerado como asset disponible, pero este análisis no sustituye una revisión técnica de mezcla, master, waveform, loudness o edición.
+- Las métricas públicas de YouTube se usan solo como baseline fechado cuando están documentadas en auditorías internas.
+- YouTube Studio, DistroKid analytics, OAC status, long-form performance, subscriber baseline, Shorts 02-05 public status y ownership del canal secundario siguen pendientes o parcialmente desconocidos.
 
 ---
 
-## Secondary Emotions
+## Mensaje Central
 
-**From `metadata.md`:** Tristeza
+*El Cambio de Tono* habla del instante en que una relación cambia antes de romperse. No describe una pelea, una infidelidad ni una despedida explícita. Describe una señal casi invisible: una diferencia en la voz, en el silencio, en la forma de responder, suficiente para que el corazón entienda algo que la mente todavía no puede aceptar.
 
-**From lyrical and narrative analysis:**
+El mensaje central es:
 
-| Emotion | Where it lives | Content relevance |
-|---------|----------------|-------------------|
-| **Melancolía** | Verses 1–2: lluvia, televisión encendida, silencio que asiente | Visual mood for MV/visualizer; cover art palette |
-| **Vulnerabilidad** | "Yo asentía en silencio como cualquier otra ocasión" | Story-behind-song intimacy; comment engagement |
-| **Tensión contenida** | Bridge: tormenta antes de la lluvia; coro: trueno antes de caer | Cinematic build in long-form; Short hook potential |
-| **Resignación anticipada** | Final: "algo ya no volvió" — sin adiós explícito | Emotional payoff in long-form; avoids melodrama |
-| **Esperanza ambigua** | `story.md`: "todavía existe esperanza, pero algo dentro de ti comienza a decirte que las cosas quizá ya no volverán a ser las mismas" | Brand DNA bridge between pain and reconstruction |
-| **Validación / reconocimiento** | "Porque algunas despedidas empiezan mucho antes de partir" | Audience resonance — "esto me pasó" comments |
+**A veces los finales empiezan en silencio, y aprender a reconocer ese cambio también forma parte de amar.**
+
+Este mensaje está alineado con el Brand DNA porque acompaña el viaje emocional completo: amor, dolor, intuición, pérdida y comprensión. La canción no convierte el dolor en espectáculo; lo observa con honestidad. Tampoco se queda en la tristeza pura: presenta la comprensión como una forma inicial de reconstrucción.
+
+Como track 01 de *Razones Para Quedarme*, la canción funciona como punto de entrada emocional al álbum. No presenta una conclusión cerrada; abre el universo narrativo desde el primer aviso de cambio.
 
 ---
 
-## Story Arc
+## Perfil Emocional
 
-### Narrative structure (lyrics + story)
+**Emoción primaria documentada:** intriga.  
+**Emoción secundaria documentada:** tristeza.
 
-```
-Calma aparente → Percepción sutil → Negación de la superficie → Intuición confirmada → Comprensión silenciosa
-```
+La intriga domina porque el conflicto todavía no tiene forma pública. Nadie dice adiós, nadie cierra la puerta, nada se rompe visiblemente. La tensión nace de una percepción interna: el narrador escucha algo distinto antes de poder demostrarlo.
 
-| Phase | Lyrical evidence | Emotional state |
-|-------|------------------|-----------------|
-| **1. Rutina intacta** | Lluvia en el cristal, TV encendida, conversación sobre trabajo y reloj | Normalidad; el mundo externo no advierte |
-| **2. Primera señal** | "Escuché el cambio de tono / Como un trueno antes de caer" | Intriga; el cuerpo percibe antes que la mente |
-| **3. Disociación** | "Aunque nadie dijo nada / Aunque todo parecía igual" | Tensión entre lo visible y lo sentido |
-| **4. Metáfora central** | "Hay tormentas que comienzan mucho antes de la lluvia" | Expansión del concepto — universal, no solo romántico |
-| **5. Grieta invisible** | "Como una grieta invisible abriéndose entre los dos" | Visual anchor for cinematic content |
-| **6. Redefinición del final** | "A veces el final no llega haciendo ruido" | Subversión del cliché de ruptura dramática |
-| **7. Resolución silenciosa** | "Aunque nadie cerró la puerta / Aquella noche comprendí que algo ya no volvió" | Tristeza sin catarsis explosiva; aceptación |
+La tristeza aparece después, cuando la intuición deja de ser sospecha y se convierte en comprensión. No es una tristeza explosiva, sino contenida: una pérdida anticipada, doméstica y silenciosa.
 
-### Production arc (from `story.md`)
+Emociones complementarias detectadas:
 
-Mirrors the narrative: íntimo y vulnerable → batería, bajo, guitarras entran gradualmente → tensión creciente → liberación emocional. No agresivo; "como una tormenta acercándose poco a poco, hasta que finalmente resulta imposible ignorarla."
+- Melancolía: lluvia, noche, televisión encendida, conversación rutinaria.
+- Vulnerabilidad: el narrador asiente en silencio aunque algo ya se siente distinto.
+- Tensión contenida: tormenta, trueno, grieta invisible y umbral emocional.
+- Resignación lúcida: el final no llega con ruido, sino sentándose junto al narrador.
+- Esperanza ambigua: todavía existe vida emocional después de reconocer la verdad.
+- Reconocimiento: la canción permite que el oyente nombre una experiencia difícil de explicar.
 
-**Long-form implication:** MV/visualizer and story video should follow this same slow-build structure — not front-load drama.
-
-### Personal origin (from `story.md`)
-
-Rooted in years of marriage, conversations that "parecían normales," and the author's inability to explain what had changed — only to hear it. This autobiographical depth is the primary asset for story-behind-the-song content (Strategy Priority #2).
+El perfil emocional debe protegerse de lecturas demasiado melodramáticas. La fuerza de la canción está en la contención.
 
 ---
 
-## Memorable Lyrics
+## Arco Narrativo
 
-Ranked by content utility — hook strength, metaphor clarity, and verified audience response.
+La canción avanza desde la normalidad aparente hacia la comprensión silenciosa.
 
-| Rank | Lyric | Why it works | Format fit |
-|------|-------|--------------|------------|
-| **1** | *"Hay tormentas que comienzan mucho antes de la lluvia"* | Central metaphor; **verified 959-view Short performer** (research-report.md); aligns with Brand DNA storm/rain identity | Short hook, quote card, MV visual motif |
-| **2** | *"Escuché el cambio de tono / Como un trueno antes de caer"* | Title line; sonic + visual; defines the song's concept in two lines | Chorus clip, thumbnail text, chapter title card |
-| **3** | *"Como una grieta invisible abriéndose entre los dos"* | Strong cinematic image; minimal words, maximum visual | MV scene, visualizer transition |
-| **4** | *"A veces el final no llega haciendo ruido"* | Subverts breakup-song expectations; comment-bait for reflective audience | Long-form narration, story video |
-| **5** | *"Porque algunas despedidas empiezan mucho antes de partir"* | Universal truth; closing insight from Bridge 2 | End card, album-era framing |
-| **6** | *"La lluvia golpeaba el cristal del comedor"* | Scene-setting; domestic intimacy; cover art echo (rain on glass) | MV opening, story-behind-song opener |
-| **7** | *"Y yo asentía en silencio como cualquier otra ocasión"* | Relatable complicity in denial | Story video personal reflection |
-| **8** | *"Aquella noche comprendí que algo ya no volvió"* | Emotional resolution without explicit breakup | Long-form outro, lyric reveal |
+1. **Rutina intacta:** la lluvia, el comedor, la televisión y la conversación cotidiana establecen una escena reconocible.
+2. **Primera señal:** el cambio de tono aparece como una percepción íntima, no como un hecho comprobable.
+3. **Negación de la superficie:** todo parece igual, pero algo ya cruzó un umbral.
+4. **Metáfora climática:** la tormenta existe antes de la lluvia, igual que el final existe antes de la despedida.
+5. **Grieta invisible:** la distancia entre las dos personas se vuelve emocionalmente visible para el narrador.
+6. **Redefinición del final:** la ruptura no necesita ruido para ser real.
+7. **Comprensión final:** nadie cerró la puerta, nadie dijo adiós, pero algo ya no volvió.
 
-**Underperforming pattern (research evidence):** Date-only release teasers (76 views) did not leverage these lyrics. Strategy correctly deprioritizes that format.
+El arco de producción descrito en `story.md` acompaña este movimiento: inicio íntimo y contenido, aparición gradual de batería, bajo y guitarras, tensión que crece lentamente y liberación emocional sin agresividad. La canción debe entenderse como una tormenta que se acerca, no como una explosión inmediata.
 
 ---
 
-## Visual Imagery
+## Imágenes Visuales
 
-### From lyrics
+La imaginería principal combina espacio doméstico, clima exterior y transformación interna.
 
-| Image | Lyrical source | Cinematic application |
-|-------|----------------|----------------------|
-| Lluvia en cristal | Verse 1 | Opening shot; rain-streaked window (proven in cover art) |
-| Televisión encendida sin atención | Verse 1 | Domestic estrangement; warm glow vs emotional cold |
-| Trueno antes de caer | Chorus | Sound-design moment; flash cut before storm |
-| Grieta invisible | Chorus | Split-screen, subtle VFX, or glass fracture motif |
-| Tormenta pre-luvia | Bridge | Atmospheric build; clouds without rain yet |
-| Noche que sigue igual | Verse 2 | Time-lapse or static wide shot; tension in stillness |
-| Puerta que no se cierra | Final | Empty hallway; absence without action |
+Imágenes desde la letra:
 
-### From cover artwork (`EL CAMBIO DE TONO.jpeg`)
+- Lluvia golpeando el cristal del comedor.
+- Televisión encendida sin captar la atención.
+- Conversaciones sobre trabajo, reloj y rutina.
+- Trueno antes de caer.
+- Tormenta antes de la lluvia.
+- Grieta invisible entre dos personas.
+- Habitación atravesada por un cambio sonoro.
+- Puerta que nadie cierra.
+- Noche donde nada parece romperse, aunque algo ya cambió.
 
-The cover is a rich visual asset aligned with Master Context (dark colors, rain, night, warm lights, minimalistic aesthetics):
+Imágenes desde el cover:
 
-- **Split atmosphere:** Warm golden sunset (left) vs dark lightning storm (right) — literal visual "cambio de tono"
-- **Rain-streaked window:** Direct echo of "la lluvia golpeaba el cristal del comedor"
-- **Central glass with swirling ink:** Internal transformation; clear becoming clouded — matches the song's theme of perceiving change before it is visible
-- **Falling golden droplets:** Suspended moment before impact; ripple on surface — the instant before understanding
-- **Typography:** Gold serif "EL CAMBIO DE TONO" / "RAZONES PARA QUEDARME" — album-era branding ready for Chapter 1 framing
-- **Color palette:** Teal-orange cinematic grade — usable across MV, thumbnails, and Shorts without generic AI-template risk (strategy policy note)
+- Ventana con lluvia como barrera entre mundo exterior e interior.
+- Contraste entre luz cálida anaranjada y tormenta azul oscura.
+- Ciudad nocturna y agua reflejando luces, alineadas con estética cinematográfica.
+- Copa central con líquido oscuro y formas internas, útil como símbolo de transformación silenciosa.
+- Relámpago al fondo, coherente con la metáfora de advertencia previa.
+- Tipografía dorada sobria, compatible con una identidad de álbum seria y no trend-driven.
 
-### From Brand DNA / Master Context
-
-Dark, rain, night, solitude, warm lights, minimalistic aesthetics. Every visual content asset should inherit this palette — not bright trend aesthetics or meme formats.
-
-### Musical visual sync (from `story.md` production notes)
-
-Visualizer/MV should map visual intensity to arrangement build: intimate close-ups during verses → wider shots and weather intensification during choruses → full storm/release at bridge peaks.
+Estas imágenes son coherentes con `MasterContext.md`: colores oscuros, lluvia, noche, soledad, luces cálidas y minimalismo. También sostienen la estrategia condicional porque ofrecen un lenguaje visual reconocible para YouTube sin recurrir a estética genérica o de tendencia.
 
 ---
 
-## Audience Resonance
+## Resonancia de Audiencia
 
-### Primary audience (from Campaign Brief + Marketing Strategy)
+La audiencia primaria documentada son adultos de 25-45 años que valoran historias emocionalmente honestas, letras reflexivas y rock cinematográfico. *El Cambio de Tono* conecta con esa audiencia porque no simplifica el amor ni el final de una relación; muestra el momento ambiguo en que todavía no hay ruptura, pero ya existe pérdida.
 
-Spanish-speaking adults 25–45 who have experienced love, relational change, uncertainty, personal growth, or emotional reconstruction. They value authenticity over hype and invest 3–4 minutes when trust is established.
+Factores de resonancia:
 
-### Why this song resonates with them
+- Experiencia universal difícil de nombrar: escuchar que algo cambió antes de tener pruebas.
+- Realismo adulto: comedor, trabajo, reloj, televisión y silencio cotidiano.
+- Ausencia de melodrama: la canción evita la pelea como recurso fácil.
+- Intuición emocional: valida una forma de conocimiento que no siempre puede justificarse racionalmente.
+- Duelo anticipado: habla del dolor antes del evento visible.
+- Identidad sonora y visual: Dark Soul, Blues Rock y Cinematic Rock refuerzan un territorio distinto al pop de ruptura convencional.
 
-| Resonance driver | Evidence | Audience behavior implication |
-|------------------|----------|-------------------------------|
-| **Universal experience, rarely articulated** | `story.md`: "Creo que todos, alguna vez, hemos escuchado un cambio de tono" | Comment engagement on recognition ("me pasó") |
-| **Avoids melodrama** | No fight, infidelity, or explicit breakup in lyrics | Trust-building for adults who reject clickbait heartbreak |
-| **Domestic realism** | Work, clock, TV, dining room — not abstract poetry | Relatability for 25–45 life stage |
-| **Intuition over evidence** | "No tenía pruebas / Simplemente podía escucharlo" | Speaks to people who've felt gaslit by surface normalcy |
-| **Pre-loss grief** | The hardest moment is before the end exists | Emotional depth beyond standard breakup songs |
-| **Cinematic rock production** | Dark Soul, Blues Rock, Cinematic Rock genres | Differentiates from acoustic singer-songwriter saturation |
-
-### Verified micro-evidence (research-report.md)
-
-The storm/rain metaphor Short (959 views) outperformed date-only teaser (76 views) and generic lyric clip (11 views) — confirming this audience responds to **narrative metaphor aligned with song identity**, not release-date noise.
-
-### Who this is NOT optimized for
-
-Trend-chasing Gen Z TikTok natives seeking meme formats. Pursuing that segment would dilute Brand DNA. Noted per strategy; not a content priority.
+La evidencia contextual permite una observación, no una conclusión definitiva: el Short con metáfora de tormenta fue el mejor baseline público documentado frente a piezas más débiles o date-only. Esto sugiere afinidad por storytelling emocional, pero no prueba conversión, retención, suscriptores, streams ni calidad de audiencia. Esa validación sigue dependiendo de YouTube Studio, DistroKid y long-form publicado.
 
 ---
 
-## Platform Opportunities
+## Oportunidades de Plataforma
 
-Aligned to approved **YouTube Hub First** strategy (Option A). Secondary platforms are conditional — opportunities documented but sequenced per marketing-strategy.md.
+Estas oportunidades son análisis G4. No constituyen calendario, asset production ni instrucciones de publicación.
 
-### YouTube — Primary hub
+**YouTube artist channel:** es la superficie prioritaria de crecimiento según la estrategia condicional. La canción tiene suficiente densidad narrativa y visual para sostener profundidad, pero el valor real depende de resolver el long-form anchor, la identidad fragmentada y la medición.
 
-| Opportunity | Analysis basis | Strategy priority |
-|-------------|----------------|-------------------|
-| **Cinematic MV / visualizer** | Cover art split-storm motif + lyrical rain/glass imagery + production slow-build | **#1** — conversion destination; closes verified #1 discovery barrier |
-| **Story-behind-the-song long-form** | Rich autobiographical material in `story.md` (marriage, intuition, first Oskar Corbenn single) | **#2** — trust, comment depth, differentiates from Topic auto-upload |
-| **Story-hook Shorts** | Memorable lyrics table + verified 959-view storm hook | **#3** — discovery engine once long-form anchor exists |
-| **Pinned CTA retrofit** | Existing high-performer Short lacks conversion destination | Infrastructure — link 959-view asset to long-form when live |
-| **Chapter 1 branding** | Cover typography + album title in artwork + `metadata.md` track 01 | **#4** — album-era framing in titles, descriptions, end cards |
-| **Artist-name disambiguation** | Title collision with SonAMA "Cambio de Tono" | All titles: "Oskar Corbenn — El Cambio de Tono" |
+**YouTube long-form:** la historia detrás de la canción, el arco musical gradual y la imaginería de lluvia/tormenta favorecen una experiencia de profundidad. Esta oportunidad está alineada con el principio de crecimiento sostenible: confianza, watch time y contexto emocional antes que volumen.
 
-### YouTube Music / Topic — Passive (active now)
+**YouTube Shorts:** la canción contiene momentos condensados y reconocibles, pero la estrategia exige tratarlos como insumos controlados de descubrimiento, no como objetivo principal. Sin long-form anchor y analytics, no debe asumirse conversión desde Shorts.
 
-Full track (3:54) on Topic (89 views). Opportunity: funnel traffic from Shorts and long-form via cross-links. Not a storytelling surface — do not optimize narrative content for Topic channel.
+**YouTube Topic / YouTube Music:** funcionan como superficie pasiva de catálogo. No reemplazan al canal de artista ni resuelven la necesidad de identidad, suscripción o storytelling.
 
-### Spotify / Apple Music — Conditional
+**OAC e identidad:** la fragmentación entre canal de artista, Topic y canal secundario `"El Cambio de Tono"` afecta la claridad del sistema. Desde G4, la implicación creativa es mantener el análisis centrado en Oskar Corbenn como identidad artística, no en el título aislado de la canción.
 
-25–45 passive listening habit. Canvas opportunity: looped rain-on-glass or cover-art storm split. Playlist pitch angle: Spanish emotional rock / cinematic ballads / cantautor contemporáneo. Activation deferred until DistroKid dashboard confirms presence.
+**Instagram y otras plataformas:** el material visual podría adaptarse en el futuro, pero la estrategia aprobada difiere expansión multiplataforma hasta que YouTube tenga funnel, long-form y analytics operativos.
 
-### Instagram — Conditional (Phase 4)
-
-Visual identity (cover art, rain, dark palette) suits Reels. Repurpose YouTube long-form and Short slices — do not create platform-native content until funnel CTR ≥3%. Quote cards from memorable lyrics table viable when activated.
-
-### TikTok — Deferred
-
-No verified presence. Song's emotional depth and 3:54 runtime misalign with TikTok-native discovery. Shorts on YouTube serve the short-form need within the hub ecosystem.
-
-### Deprioritized (per strategy — note only)
-
-| Format | Why deprioritized |
-|--------|-------------------|
-| Date-only release teasers | Verified underperformer (76 views, 1 like) |
-| Generic AI template visuals | YouTube inauthentic-content policy risk; contradicts cinematic identity |
-| TikTok-native content | No presence; weak audience fit |
+**TikTok:** no debe asumirse como oportunidad activa. La presencia oficial no está verificada y la estrategia condicional lo mantiene diferido.
 
 ---
 
-## Reusable Content Angles
+## Ángulos Reutilizables
 
-Mapped to approved content mix: **35% long-form depth | 30% Short-form discovery | 10% album-era framing | 15% infrastructure | 10% DSP (conditional)**
+Estos son ángulos conceptuales reutilizables para análisis posterior. No son hooks, captions, guiones, prompts ni piezas listas para producir.
 
-Each angle includes format application per strategy sequencing (long-form anchor before Shorts scale).
+1. **La tormenta antes de la lluvia:** el cambio emocional existe antes de que aparezca el conflicto visible.
+2. **El instante invisible:** la canción se concentra en el segundo exacto en que algo deja de sonar igual.
+3. **Cuando el final no hace ruido:** el final puede llegar sin puertas, gritos ni ruptura externa.
+4. **La grieta invisible:** la separación emocional como algo que se abre antes de verse.
+5. **El silencio que confirma:** asentir, escuchar y callar como señales de una verdad que todavía no se dice.
+6. **El comedor como escenario emocional:** lo cotidiano sostiene la autenticidad del relato.
+7. **El corazón entiende antes que la mente:** intuición, duelo anticipado y aceptación progresiva.
+8. **Capítulo inicial de *Razones Para Quedarme*:** la canción como primera señal del viaje emocional del álbum.
+9. **Luz cálida contra tormenta oscura:** contraste visual entre esperanza residual y amenaza emocional.
+10. **Transformación contenida:** el cambio ocurre dentro, no en la acción externa.
 
----
-
-### Long-form applications (Priority #1 and #2)
-
-| # | Angle | Source | Long-form use |
-|---|-------|--------|---------------|
-| **L1** | **La tormenta antes de la lluvia** | Bridge lyric + `story.md` + verified Short performance | MV/visualizer central motif; storm builds with arrangement; opening narrative frame for story video |
-| **L2** | **El instante invisible** | Core message + "grieta invisible" lyric | Story-behind-song structure: marriage → normal conversation → hearing the shift → writing the song |
-| **L3** | **Cuando el final no hace ruido** | Final verse + `story.md` intention | Documentary-style narration; subverts breakup-song tropes; trust-building for brand |
-| **L4** | **De lo íntimo a la tormenta** | Production arc in `story.md` | Visualizer sync: arrangement build drives visual intensity |
-| **L5** | **Chapter 1 — Razones Para Quedarme** | `metadata.md` track 01 + cover typography | Intro card: "Capítulo 1" framing; establishes album-era brand for future releases |
-| **L6** | **La cocina / el comedor** | Verse 1 domestic scene | Cinematic realism: ordinary room, extraordinary perception; warm TV glow vs rain |
+Estos ángulos deben mantenerse subordinados al Brand DNA: honestidad, autenticidad, calidad, storytelling emocional y pensamiento de largo plazo.
 
 ---
 
-### Short-form applications (Priority #3 — after long-form anchor live)
+## Alineación con Estrategia Condicional
 
-| # | Angle | Hook line | Short format | CTA target |
-|---|-------|-----------|--------------|------------|
-| **S1** | **Tormenta pre-luvia** *(proven)* | "Hay tormentas que comienzan mucho antes de la lluvia" | Rain/storm visual + lyric overlay | Long-form MV/visualizer |
-| **S2** | **Trueno antes de caer** | "Escuché el cambio de tono / Como un trueno antes de caer" | Chorus audio clip + lightning/rain cut | Long-form MV |
-| **S3** | **Grieta invisible** | "Como una grieta invisible abriéndose entre los dos" | Split-screen or glass VFX | Story-behind-song video |
-| **S4** | **Silencio que asiente** | "Yo asentía en silencio como cualquier otra ocasión" | Text-on-rain visual; relatable hook | Long-form MV |
-| **S5** | **Despedida anticipada** | "Algunas despedidas empiezan mucho antes de partir" | Emotional payoff clip; end-card CTA | Story-behind-song or MV |
-| **S6** | **Chapter 1 tease** | "El Cambio de Tono — Capítulo 1 / Razones Para Quedarme" | Cover art reveal + 5-sec chorus | Long-form anchor + subscribe |
+El análisis apoya la dirección aprobada sin convertirla en plan definitivo.
 
-**Shorts rules (from strategy):** Always include "Oskar Corbenn" in title; pinned comment + end card → long-form; max 1 Short/week; no date-only teasers.
+- La canción favorece profundidad antes que volumen, lo que encaja con YouTube Foundation First.
+- El mundo emocional es suficientemente fuerte para sostener un destino long-form, pero su performance no puede estimarse sin publicación y analytics.
+- Los Shorts pueden servir como descubrimiento controlado, pero no deben escalarse por views públicos aislados.
+- La identidad visual y narrativa es consistente con Oskar Corbenn y debe protegerse de formatos genéricos.
+- La fragmentación de YouTube sigue siendo una dependencia estratégica que G4 no resuelve.
+- No hay base documental para fijar KPIs, cadencia final, conversiones ni expansión multiplataforma.
 
 ---
 
-### Album-era framing applications (Priority #4 — 10% effort share)
+## Fidelity Check — Brand DNA
 
-| # | Angle | Application |
-|---|-------|-------------|
-| **A1** | **"Capítulo 1" title card** | Open/close all long-form with "Razones Para Quedarme — Capítulo 1: El Cambio de Tono" |
-| **A2** | **Cover as era key art** | Consistent thumbnail language: split storm/sunset, gold typography |
-| **A3** | **First signal of the album arc** | Position song as "where it begins" — perceiving change before the album's deeper chapters |
-| **A4** | **Channel branding** | Banner/playlist: *Razones Para Quedarme* series; this track opens the playlist order |
+El análisis cumple con Brand DNA porque:
 
----
-
-### Repurposing chain (from strategy)
-
-Every long-form asset should yield ≥2 Shorts:
-
-```
-MV/visualizer (L1, L4, L6) → S1, S2, S6
-Story-behind-song (L2, L3) → S4, S5
-```
+- Prioriza verdad emocional sobre tendencia.
+- Interpreta la canción desde amor, dolor, esperanza y reconstrucción.
+- Mantiene una estética oscura, íntima, cinematográfica y minimalista.
+- Evita convertir la ruptura en clickbait.
+- Reconoce el valor de largo plazo de la canción como entrada al universo de *Razones Para Quedarme*.
+- Preserva la autoridad humana: cualquier avance a G5 requiere decisión del CEO.
 
 ---
 
-## Strategic Alignment Summary
+## Gate G4 — Decisión Requerida
 
-| Strategy priority | Analysis support |
-|-------------------|------------------|
-| **1 — Long-form MV/visualizer** | Visual imagery (cover + lyrics), production arc, cinematic mood |
-| **2 — Story-behind-the-song** | `story.md` narrative depth, personal origin, L2/L3/L6 angles |
-| **3 — Story-hook Shorts** | Memorable lyrics ranked; S1 proven at 959 views; metaphor-first |
-| **4 — Album-era Chapter 1** | Track 01 metadata, cover typography, A1–A4 framing angles |
-| **Infrastructure** | Artist-name titles, CTA retrofit on existing Short |
-| **Deprioritized** | No angles optimized for date teasers, generic AI templates, or TikTok-native |
+El Content Engine considera que G4 — Content Analysis está completo bajo modalidad condicional.
 
----
+Decisión requerida del CEO:
 
-## Brand DNA Fidelity Check
+**¿Se aprueba G4 y se autoriza abrir G5 — Content Extraction para transformar este análisis en oportunidades de contenido reutilizables?**
 
-| Brand DNA principle | Analysis compliance |
-|---------------------|---------------------|
-| Emotional honesty | All angles rooted in song truth — no fabricated drama or clickbait |
-| Cinematic rock identity | Visual palette, production arc, storm/rain metaphor consistently applied |
-| Accompany emotional journeys | Core message validates pre-loss intuition, not just cathartic breakup |
-| Long-term thinking | Album-era framing builds *Razones Para Quedarme* brand, not disposable single hype |
-| Authenticity over trends | No trend-chasing angles; Shorts use song's own metaphors |
-| Storm → reason to continue | Song ends in comprehension, not despair — aligns with "razón para seguir adelante" |
+Si G4 se aprueba, G5 deberá respetar las mismas condiciones: sin KPIs definitivos, sin calendario cerrado, sin publicación, sin asset production y sin sustituir datos faltantes con suposiciones.
 
 ---
 
-## Gate G4 — Decision Required
-
-Leadership is asked to decide:
-
-> **Should Corbenn Labs authorize progression to G5 (Content Extraction) for the *El Cambio de Tono* campaign based on the completed song analysis?**
-
-**Content Engine assessment:** Analysis is complete across all Content Engine dimensions. Findings are grounded in `lyrics.md`, `story.md`, `metadata.md`, and cover artwork — not generic music marketing assumptions. Platform opportunities and reusable angles are explicitly mapped to approved Marketing Strategy priorities (YouTube hub, long-form before Shorts scale, Chapter 1 framing). Recommend conditional G4 approval to unlock G5 content extraction (`ideas.md`).
-
----
-
-**Author:** Content Engine — Corbenn Labs
+**Autor:** Content Engine — Corbenn Labs
