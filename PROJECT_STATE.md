@@ -70,6 +70,8 @@ The current phase is operational execution, evidence collection, and continuous 
 - Official Presence Audit completed
 - Presence Optimization Strategy approved
 - Long-form production package completed
+- Official Visualizer ✅ Published
+- Visualizer publication record created
 
 ---
 
@@ -82,11 +84,11 @@ The current phase is operational execution, evidence collection, and continuous 
 - Cross-platform linking
 - Analytics collection
 
-## Long-form Production
+## Long-form Post-Publication Verification
 
-- Visualizer planning
-- Production scheduling
-- Asset preparation
+- Confirm exact visualizer publication date/time
+- Capture YouTube Studio metrics for the published visualizer
+- Confirm OAC process status remains pending/in progress
 
 ---
 
@@ -96,8 +98,8 @@ The current phase is operational execution, evidence collection, and continuous 
 - Deliverable: `projects/oskar-corbenn/marketing/release-cadence-research-report.md` (78% confidence)
 - Leadership decision: **conditional framework adoption** confirmed
 - Provisional model: 6-week waterfall singles, Friday releases, 4–6 week marketing arc per chapter, album capstone months 11–12; 8-week fallback if capacity strain
-- Dated publishing calendar **deferred** until ECT long-form anchor publishes and initial analytics captured
-- Pending: `projects/oskar-corbenn/marketing/razones-publishing-calendar.md` (Marketing Strategist, after anchor live)
+- Dated publishing calendar **deferred** until initial analytics are captured from the published ECT long-form anchor
+- Pending: `projects/oskar-corbenn/marketing/razones-publishing-calendar.md` (Marketing Strategist, after visualizer analytics baseline)
 - No governing in-repo calendar existed at decision time; external original roadmap not supplied
 
 ---
@@ -105,22 +107,21 @@ The current phase is operational execution, evidence collection, and continuous 
 # Next Actions
 
 1. Complete Tier 1 Presence Optimization.
-2. Produce the Official Visualizer.
-3. Publish the first long-form video.
-4. Collect YouTube Studio analytics.
-5. Collect DistroKid analytics.
-6. Continue documenting operational learnings.
-7. Prepare La Casa Más Chica pre-release.
-8. Queue Marketing Strategist for `razones-publishing-calendar.md` after long-form anchor + analytics baseline.
+2. Confirm exact publication date/time for the Official Visualizer.
+3. Collect YouTube Studio analytics for the published visualizer.
+4. Collect DistroKid analytics.
+5. Continue documenting operational learnings.
+6. Prepare La Casa Más Chica pre-release.
+7. Queue Marketing Strategist for `razones-publishing-calendar.md` after visualizer analytics baseline.
 
 ---
 
 # Current Blockers
 
-- Official Artist Channel (OAC) pending
+- Official Artist Channel (OAC) pending / in progress
 - DistroKid analytics pending
-- YouTube Studio analytics pending
-- Long-form video not yet published
+- YouTube Studio analytics pending capture and analysis
+- Exact visualizer publication date/time pending confirmation
 
 ---
 
@@ -195,8 +196,8 @@ Continuous Improvement
 
 # Last Updated
 
-2026-07-02
+2026-07-04
 
 Milestone
 
-G2 Strategic Research closed. Album rollout framework conditionally adopted; dated calendar deferred pending ECT long-form anchor and analytics evidence.
+Official Visualizer publication state reconciled. Long-form video is published; OAC remains pending/in progress; exact publication date/time and YouTube Studio analytics remain pending.

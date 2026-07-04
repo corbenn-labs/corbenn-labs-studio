@@ -1,450 +1,529 @@
 # Content Ideas — El Cambio de Tono
 
-**Agent:** Content Engine  
+**Agente:** Content Engine  
 **Gate:** G5 — Content Extraction  
-**Project:** Oskar Corbenn — *El Cambio de Tono* (post-release campaign)  
-**Date:** 2026-06-29  
-**Status:** Approved — G5 closed
+**Proyecto:** Oskar Corbenn — *El Cambio de Tono*  
+**Fecha:** 2026-07-04  
+**Estado:** Complete — for CEO review  
+**Modo:** Alineado a G4 aprobado y G3 aprobado en modalidad condicional
 
-**Inputs used:**
+---
+
+## Alcance Operativo
+
+Este documento ejecuta únicamente G5 — Content Extraction.
+
+Su función es transformar el análisis aprobado de *El Cambio de Tono* en oportunidades reutilizables de contenido. No produce captions, scripts, Shorts, prompts, thumbnails, assets finales, calendario cerrado, KPIs definitivos ni instrucciones de publicación.
+
+Las oportunidades quedan subordinadas a:
+
+- Brand DNA de Oskar Corbenn.
+- Estrategia condicional de crecimiento sostenible en YouTube.
+- G4 — Content Analysis aprobado.
+- Decisión CEO posterior para abrir o no G6 — Asset Production.
+
+---
+
+## Inputs Usados
+
+Fuentes obligatorias:
+
+- `agents/ContentEngine/AGENT.md`
+- `agents/ContentEngine/Workflow.md`
+- `agents/ContentEngine/Inputs.md`
+- `agents/ContentEngine/Outputs.md`
+- `agents/ContentEngine/DecisionFrameWork.md`
+- `PROJECT_STATE.md`
+- `projects/oskar-corbenn/docs/MasterContext_v2.md`
 - `projects/oskar-corbenn/docs/MasterContext.md`
 - `projects/oskar-corbenn/docs/BrandDNA.md`
 - `projects/oskar-corbenn/releases/el-cambio-de-tono/campaign-brief.md`
-- `projects/oskar-corbenn/releases/el-cambio-de-tono/marketing-strategy.md` *(approved — governing strategy)*
-- `projects/oskar-corbenn/releases/el-cambio-de-tono/analysis.md` *(approved — governing analysis)*
-- `projects/oskar-corbenn/releases/el-cambio-de-tono/research-report.md`
+- `projects/oskar-corbenn/marketing/youtube-growth-strategy.md`
+- `projects/oskar-corbenn/releases/el-cambio-de-tono/analysis.md`
 - `projects/oskar-corbenn/releases/el-cambio-de-tono/metadata.md`
 - `projects/oskar-corbenn/releases/el-cambio-de-tono/lyrics.md`
 - `projects/oskar-corbenn/releases/el-cambio-de-tono/story.md`
 
-**Not produced (G6 scope):** captions, posts, shorts scripts, hooks files, thumbnail concepts
+Límites de evidencia:
 
-**Strategic alignment:** Ideas derived from approved `analysis.md` angles (L1–L6, S1–S6, A1–A4). Sequenced per YouTube Hub First strategy — long-form anchor before Shorts scale. Repurposing chains preserved.
-
----
-
-## Content Priorities
-
-Production and publishing order for G6 asset work. Long-form anchors must exist before Shorts funnel activation (Strategy Phase 1 → Phase 2).
-
-| Priority | Asset | Angle(s) | Phase | Rationale |
-|----------|-------|----------|-------|-----------|
-| **P1** | Cinematic MV / visualizer | L1, L4, L6 | Phase 1 | Closes verified #1 discovery barrier; conversion destination for all Shorts |
-| **P2** | Historia detrás de la canción (long-form) | L2, L3 | Phase 1 | Trust-building; leverages `story.md`; differentiates from Topic auto-upload |
-| **P3** | Retrofit CTA on existing 959-view Short | S1 | Infrastructure | Link proven discovery asset to P1 when live |
-| **P4** | Story-hook Short — trueno / chorus | S2 | Phase 2 | Second-highest lyric hook; feeds MV |
-| **P5** | Story-hook Short — grieta invisible | S3 | Phase 2 | Visual novelty; feeds story video |
-| **P6** | Story-hook Short — silencio que asiente | S4 | Phase 2 | Relatable domestic hook; repurposed from story video |
-| **P7** | Story-hook Short — despedida anticipada | S5 | Phase 2 | Emotional payoff; repurposed from story or MV |
-| **P8** | Chapter 1 tease Short | S6 | Phase 2 | Album-era discovery; subscribe CTA |
-| **P9** | Album-era framing across all assets | A1–A4 | Ongoing | 10% effort share; applied to P1–P8 outputs |
-| **—** | Date-only teasers, generic AI templates, TikTok-native | — | Deprioritized | Verified underperformers or Brand DNA conflict |
-
-**Cadence rule (from strategy):** Max 1 new Short/week after P1 is live. No Shorts publishing push before P1 publishes.
+- No se hizo investigación nueva.
+- No se asumieron datos faltantes de YouTube Studio, DistroKid, OAC, conversión o retención.
+- Las oportunidades de Shorts quedan condicionadas por la estrategia: son insumos de descubrimiento, no objetivo principal.
+- Cualquier ejecución concreta queda reservada para G6, si el CEO la autoriza.
 
 ---
 
-## Long-Form Content Ideas
+## Principio de Extracción
 
-Long-form anchors first. Each concept maps to analysis angles L1–L6 and supports the slow-build narrative arc (calma aparente → comprensión silenciosa).
+La canción no debe tratarse como un paquete de clips aislados. Debe tratarse como un sistema narrativo reutilizable alrededor de una idea central:
 
----
+**El momento en que una persona escucha que algo cambió antes de poder demostrarlo.**
 
-### LF-1 — Visualizer / MV: *La tormenta antes de la lluvia*
+Toda oportunidad de contenido debe preservar tres condiciones:
 
-**Angle:** L1  
-**Format:** Cinematic music video or visualizer (3:54 full track)  
-**Priority:** P1 — primary conversion destination
-
-**Concept:** Open on rain-streaked dining-room window — direct echo of cover art and Verse 1. The visual "cambio de tono" mirrors the cover's split atmosphere: warm golden interior light (left/warm) gradually overtaken by storm imagery (right/dark). No literal breakup scene — no arguments, no packed bags. The storm builds *inside* the frame while the domestic surface stays still.
-
-**Visual sequence (synced to production arc):**
-
-| Timestamp zone | Arrangement | Visual |
-|----------------|-------------|--------|
-| Verses 1–2 | Íntimo, contenido | Close-ups: rain on glass, TV glow, hands on table, two people in frame but emotionally distant |
-| First chorus | Batería/bajo enter | Lightning flash cuts; thunder sound-design beat on "trueno antes de caer" |
-| Bridge | Tensión creciente | Clouds gather outside window; pre-rain atmosphere — storm *before* rain falls |
-| Second chorus | Full release | "Grieta invisible" — subtle split-screen or glass-fracture VFX between two figures |
-| Final | Resolution | Empty hallway, door open but untouched; comprehension without action |
-
-**Chapter 1 integration (A1):** Open with 3-sec title card: *Razones Para Quedarme — Capítulo 1: El Cambio de Tono*. Close with album logo + subscribe CTA.
-
-**Thumbnail concept:** Cover art crop — split storm/sunset with gold typography. Title: *Oskar Corbenn — El Cambio de Tono (Video Oficial)*.
-
-**Repurposing yield:** → S1 (storm lyric), S2 (chorus/trueno), S6 (Chapter 1 tease)
+1. Mantener la contención emocional de la canción.
+2. Reforzar la identidad de Oskar Corbenn y *Razones Para Quedarme*.
+3. Servir al crecimiento sostenible en YouTube sin depender de viralidad, clickbait ni volumen.
 
 ---
 
-### LF-2 — Visualizer variant: *De lo íntimo a la tormenta*
+## Prioridades de Contenido
 
-**Angle:** L4  
-**Format:** Visualizer (if full MV budget deferred) or B-roll layer within LF-1  
-**Priority:** P1 (alternate or embedded in LF-1)
+Estas prioridades son direccionales para G5. No son calendario, orden definitivo de producción ni autorización de publicación.
 
-**Concept:** Pure production-arc visualizer — visual intensity driven entirely by arrangement build, not narrative scenes. Waveform or abstract storm imagery scales with instrumentation entry points documented in `story.md`. Intimate particle/droplet visuals during verses → wider atmospheric shots during choruses → full storm at bridge peak.
+1. **Profundidad long-form:** oportunidades que expliquen el mundo emocional de la canción y ayuden a construir confianza.
+2. **Identidad de álbum:** oportunidades que posicionen *El Cambio de Tono* como inicio de *Razones Para Quedarme*.
+3. **Descubrimiento short-form controlado:** oportunidades breves basadas en metáforas fuertes, subordinadas al long-form y a la medición pendiente.
+4. **Conversación emocional:** oportunidades que inviten al reconocimiento personal sin usar engagement bait.
+5. **Reutilización visual:** oportunidades que aprovechen lluvia, noche, contraste cálido/frío, comedor, silencio y tormenta como sistema visual.
+6. **Diferenciación de marca:** oportunidades que separen a Oskar Corbenn del contenido genérico de ruptura o tendencias.
 
-**Why it matters:** Lower production cost path to long-form anchor if cinematic MV timeline slips. Still closes the conversion gap. Can upgrade to LF-1 narrative layer later.
+Oportunidades no prioritarias:
 
-**Repurposing yield:** → S1, S2 (chorus-synced clips)
-
----
-
-### LF-3 — Domestic realism layer: *La cocina / el comedor*
-
-**Angle:** L6  
-**Format:** Scene library within LF-1 or standalone B-roll for story video  
-**Priority:** P1 (production element)
-
-**Concept:** Cinematic realism in ordinary spaces. Warm TV glow against cold rain on glass. Two people speaking but camera focuses on the listener's face — the one who *hears* the shift. No melodrama; the extraordinary lives inside the ordinary. Supports Brand DNA domestic intimacy.
-
-**Key shots:**
-- Rain on dining-room window (matches cover art)
-- TV light flickering, unwatched
-- Clock on wall during "del reloj" lyric
-- Hands nodding assent in silence
-
-**Repurposing yield:** → S4 (silencio que asiente), ambient clips for S1/S2
+- Teasers centrados solo en fecha o disponibilidad.
+- Contenido de tendencia que cambie el mensaje de la canción.
+- Piezas que dramatizan peleas, infidelidad o rupturas explícitas no documentadas.
+- Expansión multiplataforma como prioridad antes de resolver el sistema YouTube.
 
 ---
 
-### LF-4 — Historia detrás de la canción: *El instante invisible*
+## Territorios Creativos Reutilizables
 
-**Angle:** L2  
-**Format:** Long-form storytelling video (6–10 min)  
-**Priority:** P2
+### 1. La Tormenta Antes de la Lluvia
 
-**Concept:** Documentary-style first-person narration drawn directly from `story.md`. Structure follows the emotional arc of recognition, not a making-of tutorial.
+**Idea base:** Hay cambios emocionales que empiezan antes de que ocurra el evento visible.
 
-**Narrative beats:**
+**Origen:** Bridge de `lyrics.md`, `story.md`, G4 aprobado.
 
-1. **Hook:** "Las relaciones casi nunca terminan de un día para otro." — universal opener
-2. **Context:** Years of marriage; conversations that "parecían normales"
-3. **The shift:** No proof, no fight — only the ability to *hear* it
-4. **The metaphor:** Connecting intuition to "tormenta antes de la lluvia"
-5. **Writing the song:** First Oskar Corbenn single; transforming personal experience into shared recognition
-6. **The hardest moment:** "Todavía no existe un final, pero el corazón ya empezó a entenderlo"
-7. **Legacy:** Recognizing silent change as part of loving honestly
+**Valor reutilizable:** Es la metáfora más amplia de la canción. Permite explicar el tema sin reducirlo a ruptura romántica literal.
 
-**Tone:** Intimate, honest, no performance. Cinematic b-roll from LF-3 domestic scenes intercut with direct-to-camera or voiceover. Not a studio session video.
+**Usos posibles en G6:** Long-form emocional, clips de descubrimiento, conversación de audiencia, texto visual, piezas de continuidad del álbum.
 
-**Chapter 1 integration (A1, A3):** Frame as origin story of *Razones Para Quedarme* — "where the album begins emotionally."
+**Condición:** No convertir la tormenta en espectáculo vacío. La tormenta representa intuición, no desastre visual gratuito.
 
-**Repurposing yield:** → S4 (silencio lyric + personal reflection), S5 (despedida anticipada payoff)
+### 2. El Instante Invisible
 
----
+**Idea base:** La canción nace del segundo exacto en que todo parece igual, pero algo ya no suena igual.
 
-### LF-5 — Historia variant: *Cuando el final no hace ruido*
+**Origen:** `story.md`: "El Cambio de Tono nace de ese instante invisible."
 
-**Angle:** L3  
-**Format:** Long-form essay video or LF-4 chapter (can merge with LF-4 as single video)  
-**Priority:** P2 (merge recommended)
+**Valor reutilizable:** Es el núcleo narrativo más fiel al análisis aprobado. Funciona como marco para contar la historia detrás de la canción.
 
-**Concept:** Subverts breakup-song expectations. Focus on the song's contrarian insight: endings arrive quietly. No broken windows, no slammed doors — only comprehension.
+**Usos posibles en G6:** Storytelling long-form, introducción conceptual de la canción, conversación sobre intuición emocional.
 
-**Core narrative thread:**
-- "Nunca quise escribir una canción sobre una pelea" (`story.md`)
-- "A veces el final no llega haciendo ruido" (Bridge lyric)
-- "Aunque nadie cerró la puerta / Aquella noche comprendí que algo ya no volvió" (Final)
+**Condición:** Mantenerlo íntimo. No convertirlo en explicación psicológica o consejo terapéutico.
 
-**Audience value:** Trust-building for 25–45 adults who reject clickbait heartbreak content. Positions Oskar Corbenn as emotionally literate, not sensational.
+### 3. Cuando El Final No Hace Ruido
 
-**Merge recommendation:** Combine LF-4 and LF-5 into one story-behind-song video (~8 min) with two act breaks — recognition (L2) and quiet endings (L3). Reduces production load while preserving both angles.
+**Idea base:** Algunos finales llegan sin gritos, sin puertas cerradas y sin ruptura visible.
 
-**Repurposing yield:** → S5 (despedida anticipada), quote cards for future Instagram activation
+**Origen:** Letras del segundo chorus y final.
 
----
+**Valor reutilizable:** Diferencia a Oskar Corbenn del contenido de ruptura basado en drama explícito.
 
-### LF-6 — Album-era intro: *Chapter 1 — Razones Para Quedarme*
+**Usos posibles en G6:** Ensayo narrativo, contenido reflexivo, piezas de conversación, cierre emocional de un long-form.
 
-**Angle:** L5  
-**Format:** Intro/outro card system + playlist anchor (not standalone video)  
-**Priority:** P9 — applied to LF-1 and LF-4
+**Condición:** Evitar clickbait emocional. El poder está en lo silencioso.
 
-**Concept:** Standardized Chapter 1 branding across all long-form:
-- **Open card (3 sec):** *Razones Para Quedarme — Capítulo 1*
-- **Title card:** *El Cambio de Tono — Oskar Corbenn*
-- **Close card (5 sec):** Album artwork + "Capítulo 1 de [X]" + subscribe
-- **Playlist:** Create/update *Razones Para Quedarme* playlist with this track first (A4)
+### 4. La Grieta Invisible
 
-**Positioning copy (for descriptions, not spoken):** "El primer sencillo del álbum. Donde todo empieza: cuando el corazón escucha el cambio antes de que la mente pueda nombrarlo."
+**Idea base:** La distancia entre dos personas puede abrirse antes de que alguien más la vea.
 
----
+**Origen:** "Como una grieta invisible abriéndose entre los dos."
 
-## Short-Form Content Ideas
+**Valor reutilizable:** Es una imagen clara, visual y emocional. Puede conectar letra, arte visual y narración.
 
-Short-form discovery second — only after LF-1 (or LF-2) is live and linked. Each Short includes "Oskar Corbenn" in title, pinned comment + end card → long-form anchor.
+**Usos posibles en G6:** Recurso visual, microtema short-form, secuencia de storytelling, conversación sobre distancia emocional.
 
----
+**Condición:** No volverlo demasiado literal ni efectista. La grieta debe sentirse más emocional que física.
 
-### SF-1 — *Tormenta pre-luvia* *(proven — retrofit + refresh)*
+### 5. El Silencio Que Confirma
 
-**Angle:** S1  
-**Hook line:** *"Hay tormentas que comienzan mucho antes de la lluvia"*  
-**Priority:** P3 (retrofit existing), then maintain as evergreen funnel entry
+**Idea base:** A veces asentir, callar o seguir una conversación normal confirma que algo ya cambió.
 
-**Concept:** Rain/storm visual + lyric overlay. **Existing Short at 959 views** validates this angle. When LF-1 publishes: add pinned comment linking to MV/visualizer; update end card if possible.
+**Origen:** "Y yo asentía en silencio como cualquier otra ocasión."
 
-**Refresh option (G6):** Re-export with higher-quality storm footage aligned to cover art palette (teal-orange cinematic grade). Same hook — proven performer. Do not change the hook line.
+**Valor reutilizable:** Aporta realismo adulto y cotidiano. Permite identificación de audiencia sin grandilocuencia.
 
-**Visual:** Pre-rain atmosphere — clouds, wind, tension without downpour. Matches bridge metaphor.
+**Usos posibles en G6:** Piezas de reconocimiento emocional, storytelling doméstico, conversación comunitaria.
 
-**CTA target:** LF-1 (MV/visualizer)
+**Condición:** No culpar al narrador ni a la otra persona. El enfoque es comprensión, no juicio.
 
----
+### 6. El Comedor Como Escenario Emocional
 
-### SF-2 — *Trueno antes de caer*
+**Idea base:** Lo extraordinario ocurre dentro de una escena ordinaria.
 
-**Angle:** S2  
-**Hook line:** *"Escuché el cambio de tono / Como un trueno antes de caer"*  
-**Priority:** P4
+**Origen:** lluvia, comedor, televisión, trabajo, reloj.
 
-**Concept:** Chorus audio clip (~15–20 sec) with lightning/rain cut on "trueno." Title-line delivery — defines the song concept in two lines. High sonic + visual impact.
+**Valor reutilizable:** Conecta con la audiencia adulta y con la estética de Brand DNA: noche, lluvia, soledad, luz cálida y minimalismo.
 
-**Visual:** Lightning flash → rain on glass → chorus peak. Sync cut to beat entry.
+**Usos posibles en G6:** Lenguaje visual de long-form, b-roll narrativo, continuidad estética de la campaña.
 
-**CTA target:** LF-1 (MV)
+**Condición:** Mantener sobriedad. No convertir la escena en melodrama doméstico explícito.
 
-**Repurposed from:** LF-1 chorus sequence
+### 7. El Corazón Entiende Antes Que La Mente
 
----
+**Idea base:** La intuición emocional puede reconocer un cambio antes de que existan pruebas.
 
-### SF-3 — *Grieta invisible*
+**Origen:** `story.md`: "el corazón percibe un cambio antes de que la mente sea capaz de aceptarlo."
 
-**Angle:** S3  
-**Hook line:** *"Como una grieta invisible abriéndose entre los dos"*  
-**Priority:** P5
+**Valor reutilizable:** Da profundidad filosófica al proyecto y conecta con el Brand DNA sobre amor, dolor y transformación.
 
-**Concept:** Split-screen or subtle glass-fracture VFX. Two figures in frame, invisible separation. Minimal words, maximum visual — lyric works without context.
+**Usos posibles en G6:** Storytelling de artista, conversación reflexiva, continuidad de álbum.
 
-**Visual options:** Split-screen drift; crack appearing on glass overlay; two silhouettes with widening gap.
+**Condición:** No presentarlo como verdad universal absoluta. Debe sentirse como experiencia humana compartida.
 
-**CTA target:** LF-4 (story-behind-song) — the *human* story behind the invisible crack
+### 8. Capítulo Inicial de Razones Para Quedarme
 
-**Repurposed from:** LF-1 second chorus VFX sequence
+**Idea base:** *El Cambio de Tono* no es solo un single; es el primer umbral emocional del álbum.
+
+**Origen:** `metadata.md`: Track 01; `story.md`: inicio de Oskar Corbenn; G4 aprobado.
+
+**Valor reutilizable:** Conecta la canción con un sistema narrativo de largo plazo y evita tratarla como lanzamiento aislado.
+
+**Usos posibles en G6:** Identidad de serie, organización de canal, framing de long-form, continuidad con futuros lanzamientos.
+
+**Condición:** No crear calendario ni prometer capítulos futuros con fechas no aprobadas.
 
 ---
 
-### SF-4 — *Silencio que asiente*
+## Oportunidades Long-Form
 
-**Angle:** S4  
-**Hook line:** *"Yo asentía en silencio como cualquier otra ocasión"*  
-**Priority:** P6
+Estas oportunidades definen conceptos reutilizables, no guiones ni estructuras finales.
 
-**Concept:** Text-on-rain visual. Relatable domestic complicity — nodding along while something shifts inside. Targets "esto me pasó" comment engagement.
+### LF-A — Historia Detrás de La Canción
 
-**Visual:** Rain on window + subtle text animation. Optional: hands gesturing agreement, face uncertain.
+**Territorios asociados:** El Instante Invisible, Cuando El Final No Hace Ruido, El Corazón Entiende Antes Que La Mente.
 
-**CTA target:** LF-4 (story video) — personal reflection on denial
+**Oportunidad:** Crear una pieza de profundidad centrada en el origen emocional de la canción: relaciones que cambian antes de romperse, conversaciones normales que ya no suenan igual y la transformación de una experiencia personal en una historia reconocible.
 
-**Repurposed from:** LF-3 domestic B-roll + LF-4 narration clip
+**Valor estratégico:** Construye confianza, contexto y conexión emocional. Está alineada con la estrategia condicional porque fortalece el long-form como destino de profundidad.
 
----
+**Riesgo a evitar:** Convertir la historia en confesión excesiva, explicación terapéutica o dramatización de terceros.
 
-### SF-5 — *Despedida anticipada*
+### LF-B — Visualizer Narrativo o Cinemático
 
-**Angle:** S5  
-**Hook line:** *"Porque algunas despedidas empiezan mucho antes de partir"*  
-**Priority:** P7
+**Territorios asociados:** La Tormenta Antes de la Lluvia, La Grieta Invisible, El Comedor Como Escenario Emocional.
 
-**Concept:** Emotional payoff clip from bridge 2 / final verse zone. Reflective, not devastating — comprehension tone, not collapse. End-card CTA heavy.
+**Oportunidad:** Usar la imaginería aprobada de lluvia, cristal, luz cálida, tormenta y silencio para sostener la canción completa como experiencia de inmersión emocional.
 
-**Visual:** Slow pull-back from dining-room scene; empty chair; door still open.
+**Valor estratégico:** Puede funcionar como anchor de YouTube si la producción lo aprueba, porque ofrece duración, estética de marca y destino para descubrimiento posterior.
 
-**CTA target:** LF-4 or LF-1 (leadership choice — story for depth, MV for conversion)
+**Riesgo a evitar:** Producir visuales genéricos de tormenta sin vínculo con la escena doméstica y la contención emocional.
 
-**Repurposed from:** LF-4 closing reflection or LF-1 final sequence
+### LF-C — Ensayo Artístico Sobre Finales Silenciosos
 
----
+**Territorios asociados:** Cuando El Final No Hace Ruido, El Silencio Que Confirma.
 
-### SF-6 — *Chapter 1 tease*
+**Oportunidad:** Explorar la idea artística de que los finales no siempre se anuncian con eventos dramáticos; a veces se perciben en cambios mínimos.
 
-**Angle:** S6  
-**Hook line:** *"El Cambio de Tono — Capítulo 1 / Razones Para Quedarme"*  
-**Priority:** P8
+**Valor estratégico:** Diferencia a Oskar Corbenn como artista de storytelling emocional, no solo como intérprete de una canción.
 
-**Concept:** Cover art reveal (5 sec) → chorus audio snippet → album-era title card. Discovery entry for album brand, not just single.
+**Riesgo a evitar:** Convertirlo en contenido educativo de autoayuda. Debe permanecer en territorio artístico.
 
-**Visual:** Cover art `EL CAMBIO DE TONO.jpeg` full frame — split storm/sunset, gold typography. Swirl ink animation optional.
+### LF-D — Entrada al Álbum
 
-**CTA target:** LF-1 + subscribe (album-series positioning)
+**Territorios asociados:** Capítulo Inicial de *Razones Para Quedarme*.
 
-**Repurposed from:** LF-6 branding assets + LF-1 chorus clip
+**Oportunidad:** Presentar la canción como primer umbral emocional del álbum, sin cerrar promesas ni calendario.
+
+**Valor estratégico:** Ayuda a que el canal construya reconocimiento de proyecto y no dependa de una sola canción.
+
+**Riesgo a evitar:** Hacer anuncios de rollout no autorizados o fijar fechas futuras.
 
 ---
 
-## Narrative Angles
+## Oportunidades Short-Form
 
-Structured themes for G6 copywriting, titles, and community framing. Each maps to analysis angles.
+Estas oportunidades son territorios de descubrimiento. No son Shorts producidos, guiones, captions ni hooks finales.
 
-| ID | Angle | One-line frame | Best format | Emotional register |
-|----|-------|----------------|-------------|-------------------|
-| **L1** | La tormenta antes de la lluvia | Some storms start long before the rain falls | MV/visualizer | Intriga → tensión |
-| **L2** | El instante invisible | The moment everything looks the same but sounds different | Story video | Vulnerabilidad |
-| **L3** | Cuando el final no hace ruido | Endings that arrive without breaking anything | Story video | Resignación anticipada |
-| **L4** | De lo íntimo a la tormenta | Music that builds like a storm approaching | Visualizer | Tensión contenida → release |
-| **L5** | Chapter 1 — Razones Para Quedarme | Where the album begins: hearing change before naming it | All long-form | Album-era pride |
-| **L6** | La cocina / el comedor | Extraordinary perception inside ordinary rooms | MV B-roll | Melancolía, domestic realism |
-| **S1–S6** | Story-hook discovery | Song metaphors as scroll-stopping entry points | Shorts | Intriga (hook) → curiosity (CTA) |
-| **A1–A4** | Album-era continuity | This single is Chapter 1, not a disposable release | Branding layer | Long-term recognition |
+### SF-A — Metáfora Climática
 
-**Narrative rule:** Never fabricate drama (fights, infidelity, explicit breakup). The song's power is pre-loss intuition — all content must stay in that register.
+**Territorio asociado:** La Tormenta Antes de la Lluvia.
 
----
+**Oportunidad:** Usar la metáfora de la tormenta como entrada breve al universo emocional de la canción.
 
-## Quote Extraction
+**Valor estratégico:** La estrategia condicional identifica que los enfoques story-led pueden ser más fuertes que teasers date-only, aunque la validación real depende de analytics.
 
-Ranked quotes for overlays, end cards, pinned comments, and future Instagram quote cards. Sourced from `lyrics.md`; utility ranked per `analysis.md`.
+**Riesgo a evitar:** Escalar por views públicos aislados o tratarlo como fórmula definitiva.
 
-| Rank | Quote | Use case | Format |
-|------|-------|----------|--------|
-| **Q1** | *"Hay tormentas que comienzan mucho antes de la lluvia"* | Short hook, MV motif, comment prompt | SF-1, LF-1, end cards |
-| **Q2** | *"Escuché el cambio de tono / Como un trueno antes de caer"* | Title card, chorus clip, thumbnail text | SF-2, LF-1 |
-| **Q3** | *"Como una grieta invisible abriéndose entre los dos"* | VFX trigger, split-screen Short | SF-3, LF-1 |
-| **Q4** | *"A veces el final no llega haciendo ruido"* | Story video narration, long-form title | LF-4/LF-5, SF-5 |
-| **Q5** | *"Porque algunas despedidas empiezan mucho antes de partir"* | Bridge 2 payoff, album framing | SF-5, LF-4 close |
-| **Q6** | *"La lluvia golpeaba el cristal del comedor"* | Scene-setting opener, MV first frame | LF-1, LF-3 |
-| **Q7** | *"Yo asentía en silencio como cualquier otra ocasión"* | Relatable hook, comment bait | SF-4, LF-4 |
-| **Q8** | *"Aquella noche comprendí que algo ya no volvió"* | Emotional resolution, outro | LF-1 final, SF-5 |
+### SF-B — Señal Auditiva
 
-**Story-derived quotes (for LF-4 narration — not lyrics):**
+**Territorio asociado:** El Instante Invisible.
 
-| Quote | Source | Use |
-|-------|--------|-----|
-| *"No tenía pruebas. Simplemente podía escucharlo."* | `story.md` | Story video — recognition beat |
-| *"Todavía no existe un final, pero el corazón ya empezó a entenderlo."* | `story.md` | Story video — emotional peak |
-| *"A veces los cambios más importantes llegan en silencio."* | `story.md` legacy | End card, community prompt |
+**Oportunidad:** Presentar el "cambio de tono" como experiencia sonora y emocional: algo que se escucha antes de poder explicarse.
 
-**Deprioritized for content:** Release date mentions, generic "new single out now" — verified 76-view underperformer pattern.
+**Valor estratégico:** Refuerza el título y la identidad conceptual de la canción.
 
----
+**Riesgo a evitar:** Convertirlo en un truco de sonido desconectado del mensaje.
 
-## Story Hooks
+### SF-C — Distancia Invisible
 
-Opening lines and scroll-stopping frames for G6 scripts. Organized by format.
+**Territorio asociado:** La Grieta Invisible.
 
-### Long-form openers
+**Oportunidad:** Usar la separación emocional como imagen central de reconocimiento rápido.
 
-| Hook | Format | Angle |
-|------|--------|-------|
-| *"Las relaciones casi nunca terminan de un día para otro."* | Story video cold open | L2 |
-| *"¿Alguna vez sentiste que algo cambió… aunque nadie dijo nada?"* | Story video alt open | L2 |
-| *"Esta no es una canción sobre una pelea."* | Story video contrarian open | L3 |
-| *"Hay tormentas que comienzan mucho antes de la lluvia."* | MV/visualizer text card | L1 |
-| *"Capítulo 1."* | Album-era open (visual only, 1 sec) | L5 |
+**Valor estratégico:** Es visualmente claro y mantiene coherencia con el análisis aprobado.
 
-### Short-form hooks (first 2 seconds)
+**Riesgo a evitar:** Sobreproducir efectos visuales hasta romper la sobriedad.
 
-| Hook | Short | Proven? |
-|------|-------|---------|
-| *"Hay tormentas que comienzan mucho antes de la lluvia"* | SF-1 | **Yes — 959 views** |
-| *"Escuché el cambio de tono..."* (audio lead-in) | SF-2 | Chorus recognition |
-| Visual: lightning flash, no text | SF-2 alt | Pattern interrupt |
-| *"Yo asentía en silencio..."* over rain B-roll | SF-4 | Relatability |
-| Cover art reveal + *"Capítulo 1"* | SF-6 | Album discovery |
+### SF-D — Cotidianidad Que Duele
 
-### Comment / community hooks (for pinned comments)
+**Territorio asociado:** El Silencio Que Confirma, El Comedor Como Escenario Emocional.
 
-| Prompt | Purpose |
-|--------|---------|
-| *"¿Alguna vez escuchaste un cambio de tono antes de entender qué estaba pasando?"* | Recognition comments |
-| *"Esta canción es el Capítulo 1 de Razones Para Quedarme. La historia completa está aquí → [link]"* | Funnel CTA |
-| *"No es una canción sobre una pelea. Es sobre lo que pasa antes."* | Brand positioning |
+**Oportunidad:** Resaltar escenas ordinarias donde el cambio se percibe: una conversación simple, una televisión encendida, una respuesta lenta, un silencio.
+
+**Valor estratégico:** Puede activar identificación emocional sin depender de dramatismo.
+
+**Riesgo a evitar:** Forzar frases virales o exagerar el conflicto.
+
+### SF-E — Despedida Antes de Partir
+
+**Territorio asociado:** Cuando El Final No Hace Ruido, El Corazón Entiende Antes Que La Mente.
+
+**Oportunidad:** Extraer la idea de que algunas despedidas empiezan antes de la separación física.
+
+**Valor estratégico:** Conecta con audiencia adulta que ha vivido cambios, pérdida y reconstrucción.
+
+**Riesgo a evitar:** Convertirlo en contenido de ruptura genérico.
+
+### SF-F — Identidad de Capítulo
+
+**Territorio asociado:** Capítulo Inicial de *Razones Para Quedarme*.
+
+**Oportunidad:** Usar la canción como puerta de entrada al álbum, de forma breve y reconocible.
+
+**Valor estratégico:** Construye continuidad de proyecto y prepara futuros lanzamientos sin crear calendario.
+
+**Riesgo a evitar:** Prometer una secuencia de publicación no autorizada.
 
 ---
 
-## Album-Era Framing (A1–A4)
+## Extracción de Frases Reutilizables
 
-Applied across all G6 assets at 10% effort share. Not standalone content — a consistency layer.
+Estas frases se documentan como material fuente potencial para G6. No son captions, titulares finales, thumbnails ni guiones.
 
-| ID | Element | Application | Assets affected |
-|----|---------|-------------|-----------------|
-| **A1** | Capítulo 1 title card | Open/close all long-form: *Razones Para Quedarme — Capítulo 1: El Cambio de Tono* | LF-1, LF-4 |
-| **A2** | Cover as era key art | Thumbnails: split storm/sunset, gold serif typography, teal-orange grade | LF-1, SF-6, all thumbnails |
-| **A3** | Album arc opener | Description copy: "Donde el álbum empieza — percibir el cambio antes de poder actuar" | YouTube descriptions, SF-6 |
-| **A4** | Channel branding | Banner/playlist: *Razones Para Quedarme* series; RPQ-001 first in playlist order | Channel infrastructure |
+Frases de `lyrics.md`:
 
-**Naming convention (all titles):** *Oskar Corbenn — El Cambio de Tono* (+ format descriptor). Disambiguates from SonAMA "Cambio de Tono" collision.
+- "Y escuché el cambio de tono."
+- "Como un trueno antes de caer."
+- "Como cuando el cielo avisa lo que todavía no puedes ver."
+- "Sentí que algo entre nosotros acababa de cruzar el umbral."
+- "Hay tormentas que comienzan mucho antes de la lluvia."
+- "Mucho antes de los gritos."
+- "Mucho antes de la huida."
+- "Como una grieta invisible abriéndose entre los dos."
+- "A veces el final no llega haciendo ruido."
+- "A veces llega despacio."
+- "Porque algunas despedidas empiezan mucho antes de partir."
+- "Aunque nadie cerró la puerta."
+- "Aunque nadie dijo adiós."
+- "Aquella noche comprendí que algo ya no volvió."
 
----
+Frases de `story.md`:
 
-## Repurposing Chains
+- "Toda relación cambia antes de romperse."
+- "El Cambio de Tono nace de ese instante invisible."
+- "No tenía pruebas. Simplemente podía escucharlo."
+- "Era como escuchar una tormenta mucho antes de que empezara a llover."
+- "Todo sucede en un ambiente tranquilo. La tormenta ocurre por dentro."
+- "El corazón percibe un cambio antes de que la mente sea capaz de aceptarlo."
+- "A veces los cambios más importantes llegan en silencio."
+- "Aprender a reconocerlos también forma parte de amar."
 
-Every long-form asset yields ≥2 Shorts. Documented for G6 production planning.
+Criterio de uso futuro:
 
-```
-LF-1 (MV/visualizer: L1 + L4 + L6)
-  ├── SF-1  Tormenta pre-luvia (storm/bridge lyric clip)
-  ├── SF-2  Trueno antes de caer (chorus clip)
-  └── SF-6  Chapter 1 tease (cover reveal + chorus snippet)
-
-LF-4 (Story video: L2 + L3 + L5)
-  ├── SF-4  Silencio que asiente (domestic B-roll + lyric)
-  └── SF-5  Despedida anticipada (reflection clip + bridge 2 lyric)
-
-LF-3 (Domestic B-roll library: L6)
-  └── Shared across SF-1, SF-4, LF-1, LF-4
-```
-
-**Production efficiency:** Shoot/create LF-3 B-roll and LF-6 branding once. LF-1 and LF-4 draw from the same visual library. SF-1 existing asset requires CTA retrofit only — no reshoot mandatory.
-
-**Future Phase 4 (Instagram Reels):** Repurpose SF-1–SF-6 and long-form slices — do not create platform-native content until YouTube funnel CTR ≥3%.
-
----
-
-## Community Conversation Starters
-
-For long-form comments, community posts, and future Instagram activation. Grounded in song truth — not engagement bait.
-
-| Prompt | Angle | Expected response type |
-|--------|-------|------------------------|
-| *"¿Alguna vez escuchaste un cambio de tono antes de entender qué pasaba?"* | L2 | Recognition ("me pasó") |
-| *"¿Crees que algunas despedidas empiezan mucho antes de partir?"* | S5 / L3 | Reflective agreement |
-| *"¿Qué canción te ha hecho sentir que alguien más entiende lo que viviste?"* | Brand community | Broader emotional rock conversation |
-| *"Si pudieras describir ese momento en una imagen, ¿cuál sería?"* | L6 | Visual/ metaphor comments |
-| *"Capítulo 1 de Razones Para Quedarme — ¿qué esperas del resto del álbum?"* | A3 | Album anticipation |
-
-**Moderation tone:** Respond with emotional honesty. No hype replies. Match Brand DNA — accompany the journey, don't perform positivity.
+- Priorizar frases que sostengan verdad emocional.
+- Evitar fragmentos que se conviertan en clickbait fuera de contexto.
+- Mantener atribución clara a Oskar Corbenn y *El Cambio de Tono* cuando se produzcan assets en G6.
 
 ---
 
-## Educational Opportunities
+## Oportunidades de Storytelling
 
-Light-touch educational framing (not tutorial content). Supports thought-leadership positioning for Oskar Corbenn brand.
+### ST-A — Del Hecho al Reconocimiento
 
-| Topic | Content expression | Format |
-|-------|-------------------|--------|
-| **Pre-loss grief** | "El momento más difícil es cuando todavía no hay final" | LF-4 narration beat |
-| **Intuition vs. evidence** | "No tenía pruebas — simplemente podía escucharlo" | LF-4 + Q7 quote |
-| **Quiet endings** | Subverting the breakup-song trope | LF-5 / L3 angle |
-| **Metaphor as songwriting tool** | How storm/rain became the song's central image | LF-4 optional segment (~1 min) |
-| **Album storytelling** | Why *Razones Para Quedarme* uses chapter framing | A3 description + LF-6 |
+**Narrativa:** La canción no cuenta una separación, sino el momento en que el narrador reconoce que algo cambió.
 
-**Boundary:** Educational framing serves emotional authenticity — not self-help or therapy positioning. Oskar Corbenn is an artist, not a counselor.
+**Función:** Ayuda a explicar por qué la canción evita la escena típica de ruptura.
+
+**Uso posterior:** Long-form, reflexión de artista, conversación de audiencia.
+
+### ST-B — La Rutina Como Contraste
+
+**Narrativa:** Trabajo, reloj, televisión y lluvia crean una superficie normal mientras la tormenta ocurre por dentro.
+
+**Función:** Refuerza realismo y madurez emocional.
+
+**Uso posterior:** Visualizer, story video, piezas breves de reconocimiento.
+
+### ST-C — El Amor Como Transformación
+
+**Narrativa:** Reconocer un cambio doloroso también forma parte del amor y de la reconstrucción.
+
+**Función:** Conecta directamente con Brand DNA.
+
+**Uso posterior:** Continuidad del álbum, conversación de comunidad, framing de artista.
+
+### ST-D — La Primera Canción Como Origen
+
+**Narrativa:** Esta canción representa el inicio de Oskar Corbenn y la primera transformación de una experiencia personal en historia compartida.
+
+**Función:** Da valor de marca a la canción más allá del release.
+
+**Uso posterior:** Long-form de identidad, canal YouTube, narrativa de álbum.
+
+---
+
+## Oportunidades Educativas Ligeras
+
+Estas oportunidades no posicionan a Oskar Corbenn como terapeuta, coach ni consejero. Son marcos artísticos para profundizar el significado de la canción.
+
+1. **Duelo anticipado:** el dolor que aparece antes de que exista un final visible.
+2. **Intuición emocional:** reconocer cambios sutiles antes de poder explicarlos.
+3. **Metáfora climática:** usar tormenta, lluvia y trueno para expresar tensión interna.
+4. **Storytelling cotidiano:** convertir una escena simple en un momento emocional universal.
+5. **Canción como capítulo:** usar una canción para abrir un universo narrativo mayor.
+
+Condición: cualquier desarrollo educativo debe servir a la canción, no desplazarla.
+
+---
+
+## Oportunidades de Conversación
+
+Estas son direcciones de conversación, no posts ni captions finales.
+
+- Reconocimiento de momentos donde todo parecía igual, pero algo ya había cambiado.
+- Conversaciones sobre finales que no empiezan con una decisión explícita.
+- Reflexión sobre señales pequeñas que se ignoran por querer creer que todo sigue igual.
+- Identificación con escenas domésticas donde ocurre una transformación interna.
+- Preguntas sobre canciones que ayudan a nombrar experiencias difíciles.
+- Conversaciones sobre el inicio emocional de *Razones Para Quedarme*.
+
+Tono recomendado para cualquier desarrollo posterior:
+
+- Íntimo.
+- Sobrio.
+- Honesto.
+- Sin presión de engagement.
+- Sin respuestas performativas de positividad.
+
+---
+
+## Reutilización por Superficie
+
+### YouTube Long-Form
+
+Rol: confianza, profundidad, watch time y contexto emocional.
+
+Oportunidades compatibles:
+
+- Historia detrás de la canción.
+- Visualizer narrativo o cinemático.
+- Ensayo artístico sobre finales silenciosos.
+- Entrada al álbum como Chapter 1 emocional.
+
+Condición: performance y conversión no pueden estimarse hasta tener long-form publicado y YouTube Studio.
+
+### YouTube Shorts
+
+Rol: descubrimiento controlado y prueba de resonancia.
+
+Oportunidades compatibles:
+
+- Metáfora climática.
+- Señal auditiva.
+- Distancia invisible.
+- Cotidianidad que duele.
+- Despedida antes de partir.
+- Identidad de capítulo.
+
+Condición: no escalar volumen sin long-form anchor, analytics y claridad de publicación.
+
+### YouTube Topic / YouTube Music
+
+Rol: superficie pasiva de catálogo.
+
+Oportunidades compatibles:
+
+- Mantener coherencia de identidad cuando sea posible.
+- Evitar tratar Topic como sustituto del canal de artista.
+
+Condición: OAC y fragmentación siguen pendientes.
+
+### Instagram / Plataformas Secundarias
+
+Rol: potencial reutilización futura, no prioridad actual.
+
+Oportunidades compatibles:
+
+- Reutilización de frases y visuales cuando YouTube tenga evidencia suficiente.
+
+Condición: no activar expansión como prioridad sin aprobación posterior y datos.
+
+---
+
+## Mapa de Prioridad Condicional
+
+Prioridad alta para G6 si CEO lo autoriza:
+
+- Long-form de profundidad.
+- Visualizer o experiencia completa de canción.
+- Identidad de capítulo de álbum.
+- Frases y metáforas centrales de alta fidelidad.
+
+Prioridad media:
+
+- Oportunidades short-form story-led subordinadas al anchor.
+- Conversación comunitaria sobria.
+- Material educativo ligero.
+
+Prioridad baja o diferida:
+
+- Reutilización en Instagram u otras plataformas.
+- Piezas centradas en DSPs sin datos de DistroKid.
+- Expansión de volumen antes de analytics.
+
+No recomendado:
+
+- Clickbait de ruptura.
+- Tendencias virales desconectadas de la canción.
+- Publicación por calendario cerrado no aprobado.
+- Contenido que use views públicos como verdad actual.
+- Promesas de conversión, crecimiento o streams.
 
 ---
 
 ## Brand DNA Fidelity Check
 
-| Brand DNA principle | Ideas compliance |
-|---------------------|------------------|
-| Emotional honesty | All ideas rooted in `lyrics.md` and `story.md` — no fabricated drama |
-| Cinematic rock identity | Teal-orange palette, rain/storm/night visuals throughout LF-1, SF-1–SF-3 |
-| Accompany emotional journeys | Pre-loss intuition validated — song ends in comprehension, not despair |
-| Long-term thinking | A1–A4 album-era framing on every asset; Chapter 1 positioning |
-| Authenticity over trends | No meme formats, no TikTok-native ideas, no date-only teasers |
-| Storm → reason to continue | Q5 and LF-4 legacy frame: recognizing change is part of loving |
+Este G5 cumple con Brand DNA porque:
+
+- Extrae oportunidades desde la verdad emocional de la canción.
+- Prioriza storytelling sobre promoción.
+- Mantiene lluvia, noche, soledad, luz cálida y minimalismo como lenguaje visual.
+- Protege la autenticidad frente a tendencias.
+- Refuerza *Razones Para Quedarme* como proyecto de largo plazo.
+- Evita reemplazar datos faltantes con suposiciones.
+- Conserva la aprobación humana antes de cualquier producción o publicación.
 
 ---
 
-## Gate G5 — Decision Required
+## Gate G5 — Decisión Requerida
 
-Leadership is asked to decide:
+El Content Engine considera que G5 — Content Extraction está completo bajo modalidad condicional.
 
-> **Should Corbenn Labs authorize progression to G6 (Asset Production) for the *El Cambio de Tono* campaign based on the completed content extraction?**
+Decisión requerida del CEO:
 
-**Content Engine assessment:** `ideas.md` is complete across all G5 extraction dimensions — long-form concepts (LF-1–LF-6), Short-form concepts (SF-1–SF-6), narrative angles (L1–L6, S1–S6, A1–A4), quote extraction (Q1–Q8 + story quotes), story hooks, content priorities (P1–P9 sequenced), repurposing chains, community starters, and educational opportunities. All ideas derive from approved `analysis.md` angles — not generic music marketing assumptions. Long-form sequenced before Short-form per strategy. Recommend conditional G5 approval to unlock G6 (captions, posts, shorts scripts).
+**¿Se aprueba G5 y se autoriza abrir G6 — Asset Production para convertir estas oportunidades en assets concretos?**
+
+Si G6 se autoriza, deberá respetar estas condiciones:
+
+- No fijar KPIs definitivos sin analytics.
+- No cerrar calendario sin aprobación.
+- No escalar Shorts antes de resolver dependencias de estrategia.
+- No publicar sin revisión humana.
+- No producir assets que contradigan Brand DNA o la estrategia condicional aprobada.
 
 ---
 
-**Author:** Content Engine — Corbenn Labs
+**Autor:** Content Engine — Corbenn Labs

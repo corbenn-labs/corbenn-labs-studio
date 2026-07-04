@@ -2,6 +2,23 @@
 
 ---
 
+## Reconciliation Notice — 2026-07-04
+
+This document is now **Historical / Reconciled**.
+
+The Official Visualizer / long-form anchor for *El Cambio de Tono* has already been produced and published.
+
+Current factual reference:
+
+- Video ID: `ka7qPuTd19s`
+- Public URL: `https://www.youtube.com/watch?v=ka7qPuTd19s`
+- Status: published / public
+- Source: `projects/oskar-corbenn/releases/el-cambio-de-tono/publication-log.md`
+
+Do not use this edit plan as an active production checklist, do not produce another visualizer from it, and do not open Publishing or Analytics from this document. It is preserved only as historical production documentation.
+
+---
+
 ## Project
 
 Project:
@@ -17,17 +34,17 @@ Version:
 v1.0
 
 Status:
-Planning
+Historical / Reconciled — visualizer published
 
 ---
 
 # Purpose
 
-Produce the first official long-form visualizer using existing assets whenever possible.
+Historical purpose: document the planned edit approach for the first official long-form visualizer using existing assets whenever possible.
 
-Primary objectives:
+Original production objectives, now reconciled as historical:
 
-- Publish the first long-form video.
+- Publish the first long-form video. **Completed factually; see `publication-log.md`.**
 - Support Official Artist Channel (OAC) eligibility.
 - Create the primary destination for Shorts traffic.
 - Strengthen YouTube discoverability.
@@ -37,7 +54,7 @@ Primary objectives:
 
 # Production Principles
 
-Always prioritize:
+Original production principles, retained for historical record:
 
 1. Existing assets before creating new footage.
 2. Emotional storytelling over visual complexity.
@@ -45,13 +62,15 @@ Always prioritize:
 4. Brand consistency.
 5. Production efficiency.
 
-The visualizer is not intended to replace the future Official Music Video.
+The visualizer was not intended to replace a future Official Music Video.
 
-It serves as the first long-form content for the release.
+It served as the first long-form content for the release.
 
 ---
 
 # Timeline
+
+Historical note: the scene plan below is retained for production record only. Checklist items marked pending must not be interpreted as current work requests.
 
 ## Scene 01
 

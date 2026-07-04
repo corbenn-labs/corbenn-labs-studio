@@ -4,7 +4,11 @@
 **Gate:** G6 → G7 Human Review  
 **Project:** Oskar Corbenn — *El Cambio de Tono* — Long-Form Anchor  
 **Date:** 2026-07-01  
-**Status:** Ready for leadership review — **do not publish until G7 approved**
+**Status:** Historical / Reconciled — visualizer already published; not an active G7 package
+
+**Reconciliation Notice — 2026-07-04:** This document is preserved as historical G6/G7 production documentation only. The Official Visualizer / long-form anchor has already been produced and published at `https://www.youtube.com/watch?v=ka7qPuTd19s` (Video ID `ka7qPuTd19s`), as recorded in `projects/oskar-corbenn/releases/el-cambio-de-tono/publication-log.md`.
+
+Do not use this brief to authorize another visualizer, reopen production, trigger Publishing, activate Short CTA retrofit, infer analytics, or create new assets. Any references below to publish approval, metadata draft, timelines, thumbnails, or post-publish ops are historical and superseded by the publication log and current CEO workflow pause.
 
 **Package files:**
 - `long-form-mv.md` — full shot lists (LF-1 + LF-2), sync targets, feasibility
@@ -17,9 +21,9 @@
 
 ## Business Objective
 
-Produce and publish a long-form anchor on `@oskar.corbenn` that:
+Historical objective: produce and publish a long-form anchor on `@oskar.corbenn` that:
 
-1. Closes **Tier A criterion A3** (long-form anchor live)
+1. Closes **Tier A criterion A3** (long-form anchor live) — **completed factually; see `publication-log.md`**
 2. Serves as the **conversion destination** for all Shorts (including 960-view storm hook)
 3. Implements authorized **Decision 4A** (cinematic MV primary) with **4B** (visualizer) as interim fallback
 
@@ -37,7 +41,9 @@ Produce and publish a long-form anchor on `@oskar.corbenn` that:
 
 ---
 
-## Recommended Production Path
+## Historical Production Path
+
+Historical note: this section documents the production path considered before publication. It is not an active recommendation to produce another long-form asset.
 
 ### Primary: LF-1 — Cinematic MV
 
@@ -58,7 +64,7 @@ Produce and publish a long-form anchor on `@oskar.corbenn` that:
 | **Trigger to ship** | MV production not camera-ready by **Week 4** post-authorization |
 | **Why viable** | Closes zero-long-form gap immediately; 80%+ footage already exists from Shorts production |
 
-**Content Engine recommendation:** Begin LF-2 edit immediately as insurance while LF-1 B-roll is scheduled. LF-2 can publish first without blocking LF-1 upgrade path.
+**Historical Content Engine recommendation:** The original package recommended an immediate LF-2 edit as insurance while LF-1 B-roll was scheduled. That recommendation is superseded by the factual publication of the Official Visualizer.
 
 ---
 
@@ -83,7 +89,9 @@ All public metadata: **Oskar Corbenn — El Cambio de Tono** (+ format tag)
 
 ---
 
-## Production Scope
+## Historical Production Scope
+
+Historical note: the scope below records the original G6 package contents. It is not authorization to regenerate any deliverable.
 
 ### In scope (G6)
 
@@ -122,6 +130,8 @@ All public metadata: **Oskar Corbenn — El Cambio de Tono** (+ format tag)
 ---
 
 ## Publish Metadata Draft *(G7 — not for auto-publish)*
+
+Historical note: this section is not active publishing guidance. The visualizer has already been published; current factual publication state is governed by `publication-log.md`.
 
 ### LF-1 — Video Oficial
 
@@ -167,6 +177,8 @@ YouTube description must index (per Decision 2C):
 
 ## Human Review Checklist (G7)
 
+Historical note: this checklist is retained as a record of the pre-publication review package. It must not be used to initiate a new G7, Publishing, Short CTA retrofit, or post-publish workflow without new CEO delegation.
+
 Leadership confirms before any publish action:
 
 ### Creative approval
@@ -200,6 +212,8 @@ Leadership confirms before any publish action:
 
 ## Timeline Proposal
 
+Historical note: this timeline proposal is superseded by the published visualizer state. Do not use it as an active schedule.
+
 | Week | Action | Path |
 |------|--------|------|
 | **1** | G7 approval; begin LF-2 edit; schedule LF-1 B-roll | Both |
@@ -225,6 +239,8 @@ Leadership confirms before any publish action:
 ---
 
 ## Decision Required (G7)
+
+Historical note: this decision request is superseded by the visualizer's factual publication. The current CEO decision is whether G6 reconciled closes and whether to move to post-publication review or remain paused until analytics.
 
 > **Should Corbenn Labs authorize production execution and publish the long-form anchor on `@oskar.corbenn` using LF-1 as primary (LF-2 as interim if Week 4 slips) — and only then activate Short CTA retrofit (Tier 2.3)?**
 
