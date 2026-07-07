@@ -15,6 +15,20 @@
 
 ---
 
+## Metodología de producción (actualización G7 — Operador)
+
+**Fecha actualización:** 2026-07-07
+
+Tras completar el long-form anchor (visualizer LCM) en G7 Fase B1, el método de producción de SF-01 y SF-02 cambia de *editar desde cero* a **repurposing del visualizer como fuente principal**.
+
+- El visualizer LCM finalizado pasa a ser la **fuente visual primaria** para LCM-SF-01 y LCM-SF-02.
+- Utilizar clips del visualizer siempre que representen correctamente la intención emocional de cada Short.
+- Buscar footage adicional (biblioteca local u otra fuente) **únicamente** cuando el visualizer no cubra la narrativa requerida por el storyboard.
+
+**Sin cambio:** hooks, storyboards, CTA, timing (Rule 01), reglas (Rule 07, G3 Rule 1), metadata, MVPP, delegaciones ni gates.
+
+---
+
 ## LCM-SF-01 — El Silencio Que Hizo El Viaje
 
 ### Trazabilidad

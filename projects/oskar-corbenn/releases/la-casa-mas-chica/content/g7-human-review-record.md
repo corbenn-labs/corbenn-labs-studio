@@ -4,10 +4,10 @@
 **Gate:** G7 — Human Review  
 **Proyecto:** Oskar Corbenn — *La Casa Más Chica*  
 **Delegation ID:** LCM-G7-001  
-**Fecha:** 2026-07-05  
+**Fecha:** 2026-07-07  
 **Revisor:** Operador  
-**Fase:** **A — MVPP Spec Review (initial)**  
-**Estado:** **G7 OPEN — Phase A complete; Human Production NOT STARTED**
+**Fase:** **B1 — Long-form Anchor Completion**  
+**Estado:** **G7 OPEN — Phase B1 complete; Human Production IN PROGRESS (1/4 assets)**
 
 ---
 
@@ -17,10 +17,10 @@
 |-------|-------|
 | Delegation ID | LCM-G7-001 |
 | Gate | G7 — Human Review |
-| Fase | **A — MVPP Spec Review (initial)** |
-| Fecha | 2026-07-05 |
+| Fase | **B1 — Long-form Anchor Completion** |
+| Fecha | 2026-07-07 |
 | Revisor | Operador |
-| Estado | **G7 OPEN — Phase A complete; Human Production NOT STARTED** |
+| Estado | **G7 OPEN — Phase B1 complete; Human Production IN PROGRESS (1/4 assets)** |
 | MVPP source | G6 Closure Record — `content-brief.md` (2026-07-04) |
 | G6 Delegation | LCM-G6-001 — Closed with reservations |
 
@@ -64,11 +64,9 @@ Archivos de soporte revisados — **no cuentan como specs adicionales.**
 
 ## 4. Operator Input Status
 
-Estados iniciales registrados al abrir G7 Fase A:
-
 | Input | Status |
 |-------|--------|
-| Rule 01 WAV / timeline marks | **PENDING OPERATOR INPUT** |
+| Rule 01 WAV / timeline marks | **VERIFIED** *(duración y timeline verificados durante edición anchor — Fase B1)* |
 | Biblioteca visual local | **PENDING OPERATOR INPUT** |
 | Cover artwork LCM review | **PENDING OPERATOR INPUT** |
 | Thumbnail decision (T1/T2/T3) | **PENDING** |
@@ -79,23 +77,54 @@ Estados iniciales registrados al abrir G7 Fase A:
 
 | Asset | Status |
 |-------|--------|
-| Long-form anchor LCM | **NOT STARTED** |
-| Story-behind-song | **NOT STARTED** |
+| Long-form Anchor (Visualizer) | **COMPLETE** |
+| Story Behind Song | **NOT STARTED** |
 | Short LCM-SF-01 | **NOT STARTED** |
 | Short LCM-SF-02 | **NOT STARTED** |
 
-**Confirmación:** Human Production no iniciada. Ningún asset editado, exportado ni subido en esta sesión.
+**MVPP completion:** 1/4 production assets completed.
+
+### Long-form Anchor — Completion Record (Fase B1)
+
+| Campo | Valor |
+|-------|-------|
+| Estado | **COMPLETE** |
+| Asset | Long-form Anchor (Visualizer) LCM |
+| Validación | Revisión humana operador — aprobado |
+
+**Hechos registrados:**
+
+- Visualizer editado completamente.
+- Timeline revisado por el operador en múltiples pasadas.
+- Clips finales seleccionados.
+- Transiciones revisadas.
+- MP4 exportado correctamente.
+- Archivo DRP exportado.
+- Proyecto respaldado.
+- Render aprobado por revisión humana.
+- Sin issues críticos detectados.
 
 ---
 
-## 6. G7 Outcome (Fase A)
+## 6. G7 Outcome
 
-**PHASE A COMPLETE — AWAITING HUMAN PRODUCTION (Phase B not authorized in this session)**
+### Fase A (2026-07-05)
+
+**PHASE A COMPLETE — MVPP Spec Review (initial)**
 
 - G7 abierto con revisión MVPP spec inicial registrada.
 - Checklist 7/7 evaluado — sin FAIL documental.
+
+### Fase B1 (2026-07-07)
+
+**PHASE B1 COMPLETE — Long-form Anchor Completion**
+
+- G7 **remains OPEN**.
+- Phase B1 completed successfully.
+- MVPP completion: **1/4 production assets completed**.
+- Human production continues.
 - **No se emite** outcome final G7: Approved / Reject / Defer.
-- Fase B — Human Production requiere delegación/autorización operador separada.
+- G8 **no autorizado**.
 
 ---
 
@@ -133,20 +162,28 @@ Estado documentado en `marketing-strategy.md` / `research-report.md`:
 
 ## 9. Next Step Required
 
-**Phase B — Human Production** requiere autorización operador separada tras completar:
+**Human production continues** — assets pendientes:
 
-1. Rule 01 WAV — duración exacta + timeline marks.
-2. Inventario/evaluación biblioteca visual local (boxes, houses, roads, rain).
-3. Revisión cover artwork LCM (thumbnail T1 primary).
-4. Decisión thumbnail T1/T2/T3.
+| Asset | Estado |
+|-------|--------|
+| Story Behind Song | NOT STARTED |
+| Short LCM-SF-01 | NOT STARTED |
+| Short LCM-SF-02 | NOT STARTED |
 
-Secuencia lógica post-inputs (no calendario): anchor → story-behind (paralelo o secuencial) → Shorts SF-01/SF-02 **solo post-anchor live**.
+**Operator inputs pendientes:**
 
-**Prohibido sin Fase B autorizada:** editar/exportar assets, activar CTA, publicar, programar, invocar Content Engine, cerrar G7, ejecutar G8+.
+- Biblioteca visual local — inventario/evaluación.
+- Cover artwork LCM review (thumbnail T1 primary).
+- Thumbnail decision (T1/T2/T3).
+
+Secuencia lógica restante (no calendario): story-behind (paralelo o secuencial) → Shorts SF-01/SF-02 **solo post-anchor live**.
+
+**Prohibido en esta fase:** cerrar G7, emitir G7 Closure Record, autorizar G8, publicar, programar, activar CTA Shorts pre-anchor live, invocar Content Engine.
 
 ---
 
 **Autor:** Operador — Corbenn Labs  
 **Delegation:** LCM-G7-001  
 **Created:** 2026-07-05  
-**G7 Phase A completed:** 2026-07-05
+**G7 Phase A completed:** 2026-07-05  
+**G7 Phase B1 completed:** 2026-07-07
