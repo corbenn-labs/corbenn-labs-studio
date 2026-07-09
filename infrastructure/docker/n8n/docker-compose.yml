@@ -1,0 +1,20 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: corbenn-n8n
+
+    restart: unless-stopped
+
+    ports:
+      - "5678:5678"
+
+    environment:
+      - TZ=America/Los_Angeles
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+
+    volumes:
+      - ./data:/home/node/.n8n
+      - C:/Users/kio_f/OneDrive/Documentos/corbenn-labs:/opt/corbenn-labs
+      - C:/Users/kio_f/OneDrive/Documentos/corbenn-labs/projects/oskar-corbenn/docs:/home/node/.n8n-files/docs:ro
