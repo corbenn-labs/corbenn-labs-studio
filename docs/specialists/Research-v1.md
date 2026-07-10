@@ -24,9 +24,9 @@ Research-v1 identifies what is working, why it is working, and what evidence sup
 
 It is the evidence layer in the operational chain:
 
-Manager Main → Research-v1 → Marketing-Strategist-v1
+Manager Main → Research-v1 → Marketing-Strategist-v1 → Content-Engine-v1
 
-Research-v1 owns evidence only. Marketing Strategist consumes approved research. Content Engine produces finished content.
+Research-v1 owns evidence only. Marketing Strategist consumes approved research. Content-Engine-v1 produces the Content Package.
 
 ---
 
