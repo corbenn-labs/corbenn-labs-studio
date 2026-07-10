@@ -1,0 +1,461 @@
+{
+  "name": "Manager Main",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"request\": \"Investiga qué formatos de Shorts emocionales están funcionando en 2026 para el proyecto oskar-corbenn\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -864,
+        -512
+      ],
+      "id": "afb4d4bb-4632-46f7-a060-2a1edb5831dd",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "5pww8QDkurORJpLe",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/5pww8QDkurORJpLe",
+          "cachedResultName": "Research-v1"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "mission",
+              "displayName": "mission",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "query",
+              "displayName": "query",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "project",
+              "displayName": "project",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "source",
+              "displayName": "source",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "authoritative_context",
+              "displayName": "authoritative_context",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        -176,
+        -512
+      ],
+      "id": "4ca40110-f115-4c92-b22d-bdb7bfb1953b",
+      "name": "Call 'Research-v1'"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/home/node/.n8n-files/docs/MasterContext_v2.md",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1.1,
+      "position": [
+        -704,
+        -512
+      ],
+      "id": "f4f62e28-38c6-417a-b47f-3002353b0735",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "operation": "text",
+        "destinationKey": "authoritative_context",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        -544,
+        -512
+      ],
+      "id": "60cd33d0-0c8b-46f3-b890-78f6d564a561",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "44ff554d-b05f-4588-a341-bcf7e7168eda",
+              "name": "mission",
+              "value": "={{ $('On form submission').item.json.Mission }}",
+              "type": "string"
+            },
+            {
+              "id": "ca239db2-fc1e-4712-8eda-289178bdfb74",
+              "name": "query",
+              "value": "={{ $('On form submission').item.json.Query }}",
+              "type": "string"
+            },
+            {
+              "id": "5d5ce82e-3797-478f-b023-770b1a0e0a84",
+              "name": "source",
+              "value": "=manager",
+              "type": "string"
+            },
+            {
+              "id": "52e6eec0-47c9-408f-8715-723c6602e9f8",
+              "name": "authoritative_context",
+              "value": "={{ $json.authoritative_context }}",
+              "type": "string"
+            },
+            {
+              "id": "9d7a4f31-2263-4c91-8564-670340fc51b6",
+              "name": "project",
+              "value": "=oskar-corbenn",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -352,
+        -512
+      ],
+      "id": "2ff9ec43-2a98-44a5-9c4d-23123383c22b",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1056,
+        -704
+      ],
+      "id": "622f1735-a193-4881-873b-68b1e165fc5b",
+      "name": "Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a059826b-4ca2-481c-a113-bae0f13ad355",
+              "name": "mission",
+              "value": "={{ $('On form submission').item.json.Mission }}",
+              "type": "string"
+            },
+            {
+              "id": "d74aa6bf-380d-4352-81c6-6836370144cd",
+              "name": "project",
+              "value": "=oskar-corbenn",
+              "type": "string"
+            },
+            {
+              "id": "3087ddab-1f10-47bc-99c7-86608b369df6",
+              "name": "source",
+              "value": "=manager",
+              "type": "string"
+            },
+            {
+              "id": "9f11ea67-2a4d-4f1c-b096-bcc221405f8d",
+              "name": "authoritative_context",
+              "value": "={{ $('Edit Fields').item.json.authoritative_context }}",
+              "type": "string"
+            },
+            {
+              "id": "36f12938-6d82-48eb-ad8c-71bdba818185",
+              "name": "approved_research",
+              "value": "={{ $json.output[0].content[0].text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -16,
+        -512
+      ],
+      "id": "bf939e65-9ff6-477e-8faf-fde13fbfb87f",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "otziC77zVoO3d68e",
+          "mode": "list",
+          "cachedResultUrl": "/workflow/otziC77zVoO3d68e",
+          "cachedResultName": "Marketing-Strategist-v1"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "mission": "={{ $json.mission }}",
+            "project": "={{ $json.project }}",
+            "source": "={{ $json.source }}",
+            "authoritative_context": "={{ $json.authoritative_context }}",
+            "approved_research": "={{ $json.approved_research }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "mission",
+              "displayName": "mission",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "project",
+              "displayName": "project",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "source",
+              "displayName": "source",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "authoritative_context",
+              "displayName": "authoritative_context",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            },
+            {
+              "id": "approved_research",
+              "displayName": "approved_research",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string",
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.3,
+      "position": [
+        192,
+        -512
+      ],
+      "id": "f47f6026-7d2b-401d-822b-3dfd57c93264",
+      "name": "Call 'Marketing-Strategist-v1'"
+    },
+    {
+      "parameters": {
+        "formTitle": "Nueva Misión — Corbenn Labs",
+        "formDescription": "Escribe la misión y la búsqueda para que Research-v1 investigue.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Mission",
+              "fieldType": "textarea",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Query",
+              "fieldType": "textarea",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        -1040,
+        -512
+      ],
+      "id": "c44e7cbc-bcf4-4328-928b-1db2e9c0a3f7",
+      "name": "On form submission",
+      "webhookId": "23c9c461-cfaa-46cc-bbcb-935241b8a1d5"
+    }
+  ],
+  "connections": {
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call 'Research-v1'": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Call 'Research-v1'",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Trigger": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Call 'Marketing-Strategist-v1'",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "467b1bce-c543-4037-ba0b-2d5e41e68646",
+  "pinData": {
+    "Trigger": [
+      {
+        "json": {
+          "specialist": "research_specialist",
+          "workflow": "trend_research",
+          "priority": "normal",
+          "mission": "Investigate recent YouTube Shorts trends for independent music artists.",
+          "input": {
+            "query": "Identify recent YouTube Shorts trends for independent music artists. Include current examples, explain why they are working, and summarize the evidence found through web search."
+          },
+          "context": {
+            "project": "oskar-corbenn",
+            "source": "manager"
+          }
+        }
+      }
+    ]
+  }
+}

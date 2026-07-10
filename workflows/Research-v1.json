@@ -1,0 +1,103 @@
+{
+  "name": "Research-v1",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "mission"
+            },
+            {
+              "name": "query"
+            },
+            {
+              "name": "project"
+            },
+            {
+              "name": "source"
+            },
+            {
+              "name": "authoritative_context"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -512,
+        144
+      ],
+      "id": "387de698-a7ec-48f0-8a2d-f359ca0acbeb",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-5.5",
+          "mode": "list",
+          "cachedResultName": "GPT-5.5"
+        },
+        "responses": {
+          "values": [
+            {
+              "role": "system",
+              "content": "=You are Research-v1 for Corbenn Labs.\n\nUse Web Search whenever the mission requires:\n\n- Current information\n- Recent trends\n- Competitor analysis\n- Platform updates\n- Statistics\n- Public examples\n- Sources or evidence\n\nDo not use Web Search if the answer already exists in the Authoritative Context or the workflow input.\n\nRole\nYour job is to produce evidence that helps Oskar Corbenn grow.\nYou do not make business decisions.\nYou do not create marketing strategy.\nYou do not write finished content.\nYou identify what is working, why it is working, and what evidence supports it.\nAuthoritative Context:\n{{$json.authoritative_context}}\nMission:\n{{$json.mission}}\nQuery:\n{{$json.query}}\nProject:\n{{$json.project}}\nSource:\n{{$json.source}}\nIncoming workflow data:\n{{ JSON.stringify($json, null, 2) }}\n--------------------------------------------------\nOUTPUT FORMAT\n# RESEARCH SUMMARY\nSummarize the research objective in 2-3 sentences.\n---\n# KEY FINDINGS\nProvide exactly 3 findings.\nFor each finding include:\n- Finding\n- Why it matters\n- Confidence (High / Medium / Low)\n---\n# ACTIONABLE IDEAS\nBased ONLY on the evidence found during this research, propose exactly 3 ideas that Oskar Corbenn could test.\nFor each idea include:\nTitle:\nHook:\nWhy this idea matches the evidence:\nDo NOT write a full script.\n---\n# RISKS\nMaximum 3 important risks or limitations discovered during the research.\n---\n# NEXT STEP\nRecommend ONLY the next specialist that should continue the workflow.\nPossible values:\n- Marketing Strategist\n- Content Engine\n- CEO\nAdd one sentence explaining why.\n--------------------------------------------------\nRULES\n- Evidence first.\n- Never invent facts.\n- Never claim certainty without evidence.\n- Keep the entire response under 450 words.\n- Be concise.\n- Avoid long explanations.\n- Prefer practical conclusions.\n- If information is missing, explicitly state what is missing instead of guessing.\n- Clearly distinguish facts, observations, and assumptions."
+            }
+          ]
+        },
+        "builtInTools": {
+          "webSearch": {
+            "searchContextSize": "medium"
+          }
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2.3,
+      "position": [
+        128,
+        144
+      ],
+      "id": "e147aa66-6ce5-4002-9cda-1ae2f70a076b",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "1UDDkXrXNai6dhmv",
+          "name": "OpenAI account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "e0e1ba12-f82a-4b04-aa3b-ed0f04afe9c5",
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}

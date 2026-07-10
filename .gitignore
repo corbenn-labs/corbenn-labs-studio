@@ -6,3 +6,10 @@ manager-startup.log
 !.env.example
 node_modules/
 dist/
+
+# n8n runtime (local only)
+infrastructure/docker/n8n/data/
+
+# Python bytecode
+__pycache__/
+*.py[cod]

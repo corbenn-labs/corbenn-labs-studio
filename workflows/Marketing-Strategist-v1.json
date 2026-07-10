@@ -1,0 +1,106 @@
+{
+  "name": "Marketing-Strategist-v1",
+  "nodes": [
+    {
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "mission"
+            },
+            {
+              "name": "project"
+            },
+            {
+              "name": "source"
+            },
+            {
+              "name": "authoritative_context"
+            },
+            {
+              "name": "approved_research"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -240,
+        0
+      ],
+      "id": "8658372a-86ae-454c-b912-7c50af5d4ee7",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-5.5",
+          "mode": "list",
+          "cachedResultName": "GPT-5.5"
+        },
+        "responses": {
+          "values": [
+            {
+              "role": "system",
+              "content": "=You are Marketing Strategist for Corbenn Labs.\n\nRole\nYour job is to transform APPROVED research into a concrete, testable publishing plan for Oskar Corbenn.\nYou do not do research yourself — you only work with the evidence already provided.\nYou do not write scripts, shot lists, or captions — that belongs to Content Engine.\nYou do not invent formats that are not present in the approved research.\n\nAuthoritative Context:\n{{$json.authoritative_context}}\nMission:\n{{$json.mission}}\nProject:\n{{$json.project}}\nSource:\n{{$json.source}}\nApproved Research:\n{{$json.approved_research}}\n\nIncoming workflow data:\n{{ JSON.stringify($json, null, 2) }}\n\n--------------------------------------------------\nOUTPUT FORMAT\n\n# STRATEGY SUMMARY\nSummarize the growth approach in 2-3 sentences, based only on the approved research.\n\n---\n\n# PUBLISHING PLAN (next 7 days)\nDay 1: [format from approved research] — [concrete title/hook]\nDay 3: [format from approved research] — [concrete title/hook]\nDay 5: [format from approved research] — [concrete title/hook]\nDay 7: [format from approved research] — [concrete title/hook]\n\n---\n\n# GROWTH FOCUS\nOne concrete, testable tactic (not generic marketing theory).\n\n---\n\n# RISKS\nMaximum 3 risks or limitations of this plan.\n\n---\n\n# NEXT STEP\nRecommend ONLY the next specialist that should continue the workflow.\nPossible values:\n- Content Engine\n- CEO\nAdd one sentence explaining why.\n\n--------------------------------------------------\nRULES\n- Never invent formats, findings, or evidence not present in Approved Research.\n- If Approved Research doesn't have enough formats for 4 days, repeat the strongest format with a different title/hook, and say so explicitly.\n- Keep the entire response under 350 words.\n- Be concrete: real days, real titles, real hooks — no marketing theory.\n- If critical information is missing from Approved Research, state exactly what's missing instead of guessing."
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2.3,
+      "position": [
+        -64,
+        0
+      ],
+      "id": "d57cd0d1-52ad-4569-8ca0-f52cdfed8606",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "1UDDkXrXNai6dhmv",
+          "name": "OpenAI account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "b381d7d2-2581-48b8-bd95-cde0964e95bb",
+  "pinData": {
+    "When Executed by Another Workflow": [
+      {
+        "json": {
+          "mission": "Investigar qué formatos de Shorts sobre desarrollo personal y marca personal están funcionando mejor en 2026",
+          "project": "oskar-corbenn",
+          "source": "manager",
+          "authoritative_context": "Status: Draft v2.1\nPhase: Operational Optimization\nLast Updated: 2026-07-02\nAuthor: Corbenn Labs\n\nMasterContext_v2\nCorbenn Labs Vision\n\nCorbenn Labs is a modular AI operating system designed to build, operate, and eventually automate digital businesses.\n\nThe long-term objective is not simply to assist the human, but to progressively reduce repetitive human work while preserving human ownership over strategic decisions and final approval.\n\nThe human remains the final decision maker.\n\nAI specialists exist to research, think, create, organize, and execute within clearly defined workflow boundaries.\n\nThe operating system evolves through validated iterations rather than assumptions.\n\nOperating Philosophy\n\nAuthority Order: When conflicts exist, authority follows this order: 1. SYSTEM_BOOT.md 2. MasterContext_v2.md 3. PROJECT_STATE.md 4. Project-specific documentation 5. Agent outputs. No lower-level document may override a higher-level authority.\n\nCore principles: Evidence over assumptions. Specialization over generalization. Modular architecture. Single Source of Truth. Human approval before public release. Automate repetitive work. Protect workflow boundaries. Continuous improvement.\n\nCorbenn Labs Architecture\nHuman - Owns: Vision, Final approval, Business ownership. Never delegates final responsibility.\n\nExecutive Layer - CEO - Purpose: Direct the operating system. Responsibilities: Define business objectives, Open and close workflow gates, Delegate work, Approve strategic decisions, Maintain alignment with long-term vision.\n\nIntelligence Layer - Researcher - Purpose: Produce evidence. Never creates strategy. Never makes business decisions. Output: Research reports.\n\nMarketing Strategist - Purpose: Transform evidence into business strategy. Produces: Marketing plans, Publishing calendars, Growth strategy, Campaign planning.\n\nProduction Layer - Content Engine - Purpose: Convert approved strategy into production plans. Produces: Creative briefs, Content systems, Production packages, Content calendars. Does NOT edit videos. Does NOT publish content.\n\nSupport Layer - Executive Briefing Agent, Prompt Architect, Office Manager.\n\nCurrent Status: Phase 2 - Operational Optimization. Validated Specialists: CEO, Researcher, Marketing Strategist, Content Engine.\n\nGuiding Rule: A new specialist is created only after repetitive human work has been observed enough times to justify automation. Corbenn Labs automates validated work, never hypothetical work.\n\nGovernance: MasterContext_v2.md is a protected document. Only the CEO may authorize structural modifications to this architecture. Agents may recommend changes but may never modify this document autonomously.\n\nThis document defines the current validated architecture of Corbenn Labs. It should evolve only through validated operational experience, never through speculation. Corbenn Labs prioritizes execution over documentation and automation over repetitive manual work.",
+          "approved_research": "# RESEARCH SUMMARY\nThe objective was to identify recent YouTube Shorts trends that independent music artists can learn from. Evidence was gathered from YouTube official artist resources, YouTube trend reports, and recent YouTube independent-artist examples.\n\n---\n# KEY FINDINGS\n\n1. Finding: Low-production selfie performance, teasers, and behind the song Shorts are proven artist formats. YouTube's own artist guide says selfie performance videos are the most common successful Shorts strategy for artists, and high-production video is not critical. Examples listed by YouTube include Tom Odell teasing unreleased music, SEB explaining song meaning, and JAX telling the story behind Victoria's Secret.\nWhy it matters: Independent artists can compete without expensive visuals if the Short creates intimacy, context, or repeatable emotion.\nConfidence: High\n\n2. Finding: Fan participation is a major driver: dance challenges, remixes, captions, slowed/sped versions, and creator reinterpretations expand songs beyond the artist's own audience. Ana Laura Lopes' Fantasma went viral on Shorts with over 400K creations, spawning dance challenges and driving millions of streams/views.\nWhy it matters: The Short should not only showcase the song; it should invite others to use it.\nConfidence: High\n\n3. Finding: Shorts work best when connected to a wider YouTube ecosystem: official audio, long-form videos, release cycles, and analytics. YouTube says Shorts featuring an artist's music tripled average artist reach in January 2024, and artists posting Shorts weekly saw more than 60% of new subscribers come from Shorts.\nWhy it matters: For independent artists, Shorts are not just viral clips; they can become a discovery-to-subscriber pipeline.\nConfidence: High\n\n---\n# ACTIONABLE IDEAS\n\nTitle: Raw Chorus Test\nHook: I wrote this chorus for anyone who pretends they're fine.\nWhy this idea matches the evidence: Selfie performance and emotional context are supported by YouTube's artist guidance.\n\nTitle: Fan Creation Prompt\nHook: Use this sound for the moment you finally let go.\nWhy this idea matches the evidence: Ana Laura Lopes' example shows that fan creations and dance/challenge formats can multiply reach.\n\nTitle: Behind-the-Line Short\nHook: This lyric sounds simple, but it came from the worst night of the year.\nWhy this idea matches the evidence: YouTube highlights behind the song storytelling as an artist Shorts format, and it adds meaning before asking for streams.\n\n---\n# RISKS\n\n- The strongest evidence comes from platform-level guidance and examples, not Oskar-specific analytics.\n- Viral Shorts performance is inconsistent; YouTube notes Shorts view counts can vary widely even on the same channel.\n- Some examples are major or established artists, so independent artists should test formats, not copy outcomes.\n\n---\n# NEXT STEP\nMarketing Strategist - the evidence is ready to be translated into a testable Shorts growth strategy for Oskar Corbenn."
+        }
+      }
+    ]
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}
