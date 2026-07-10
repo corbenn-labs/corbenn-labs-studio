@@ -22,6 +22,8 @@ Corbenn Labs has successfully completed its first end-to-end operational validat
 
 The CEO, Researcher, Marketing Strategist, Content Engine, and Human Production workflow have been validated through a real commercial release.
 
+Operations Layer V1 is implemented and validated. The canonical local repository path is `C:\dev\corbenn-labs`. `main` is synchronized with `origin/main` at commit `6dde40f`.
+
 The system is no longer focused on architecture design.
 
 The current phase is operational execution, evidence collection, and continuous refinement.
@@ -56,6 +58,17 @@ The current phase is operational execution, evidence collection, and continuous 
 - Production SOP implemented
 - Production Log implemented
 - Operational workflow validated
+
+## Infrastructure & Operations (2026-07-10)
+
+- Operations Layer V1: `start.ps1`, `stop.ps1`, `health.ps1` (commit `8e0e842`)
+- `.env` loading via `python-dotenv` in `manager/manager.py`; `.env.example` in repo
+- Repository migrated to `C:\dev\corbenn-labs`; startup validated (`STATUS: READY`)
+- n8n runtime removed from Git tracking; `.gitignore` updated (commit `6dde40f`)
+- Workflows exported to `workflows/`: `Manager-Main.json`, `Research-v1.json`, `Marketing-Strategist-v1.json`
+- Local n8n backup: `C:\backups\corbenn-n8n-data-20260710-100956`
+- `infrastructure/docker/n8n/data/` remains on disk locally (untracked)
+- `docker-compose.yml` volume paths updated to `C:\dev\corbenn-labs`
 
 ---
 
@@ -106,11 +119,11 @@ The current phase is operational execution, evidence collection, and continuous 
 
 # Next Actions
 
-1. Complete Tier 1 Presence Optimization.
-2. Confirm exact publication date/time for the Official Visualizer.
-3. Collect YouTube Studio analytics for the published visualizer.
-4. Collect DistroKid analytics.
-5. Continue documenting operational learnings.
+1. Persist `docs/specialists/Research-v1.md` (approved 2026-07-09, not yet in repo).
+2. Complete Tier 1 Presence Optimization.
+3. Confirm exact publication date/time for the Official Visualizer.
+4. Collect YouTube Studio analytics for the published visualizer.
+5. Collect DistroKid analytics.
 6. Prepare La Casa Más Chica pre-release.
 7. Queue Marketing Strategist for `razones-publishing-calendar.md` after visualizer analytics baseline.
 
@@ -196,8 +209,8 @@ Continuous Improvement
 
 # Last Updated
 
-2026-07-04
+2026-07-10
 
 Milestone
 
-Official Visualizer publication state reconciled. Long-form video is published; OAC remains pending/in progress; exact publication date/time and YouTube Studio analytics remain pending.
+Operations Layer V1 completed. Repository migrated to `C:\dev\corbenn-labs`. n8n runtime untracked; workflows exported. Stack validated with `STATUS: READY`.

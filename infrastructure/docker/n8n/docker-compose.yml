@@ -16,5 +16,5 @@ services:
 
     volumes:
       - ./data:/home/node/.n8n
-      - C:/Users/kio_f/OneDrive/Documentos/corbenn-labs:/opt/corbenn-labs
-      - C:/Users/kio_f/OneDrive/Documentos/corbenn-labs/projects/oskar-corbenn/docs:/home/node/.n8n-files/docs:ro
+      - C:/dev/corbenn-labs:/opt/corbenn-labs
+      - C:/dev/corbenn-labs/projects/oskar-corbenn/docs:/home/node/.n8n-files/docs:ro
