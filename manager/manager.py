@@ -4,9 +4,14 @@ import sys
 import urllib.error
 import urllib.request
 
+from pathlib import Path
+
+from dotenv import load_dotenv
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
+_ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(_ENV_PATH)
 
 app = FastAPI()
 
@@ -52,6 +57,9 @@ def build_messages(user_request):
 
 def call_gpt(user_request):
     api_key = os.getenv("OPENAI_API_KEY")
+    print("CALL_GPT KEY FOUND:", api_key is not None)
+    if api_key:
+        print("CALL_GPT PREFIX:", api_key[:8])
     if not api_key:
         raise RuntimeError("missing OPENAI_API_KEY")
 
@@ -73,9 +81,12 @@ def call_gpt(user_request):
 
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
-            data = json.loads(response.read().decode("utf-8"))
+            raw_body = response.read().decode("utf-8")
+            print("OPENAI_HTTP_RESPONSE:", raw_body)
+            data = json.loads(raw_body)
     except urllib.error.HTTPError as error:
         detail = error.read().decode("utf-8")
+        print("OPENAI_HTTP_RESPONSE:", detail)
         raise RuntimeError(f"gpt request failed: {detail}") from error
     except urllib.error.URLError as error:
         raise RuntimeError(f"gpt request failed: {error.reason}") from error
@@ -126,6 +137,8 @@ def run_manager(payload):
     try:
         decision = call_gpt(user_request)
     except (RuntimeError, KeyError, IndexError, json.JSONDecodeError) as error:
+        print("FULL ERROR:", repr(error))
+        print("FULL ERROR TYPE:", type(error))
         return {"error": str(error)}, 2
 
     if not validate_decision(decision):
